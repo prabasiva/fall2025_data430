@@ -7,7 +7,13 @@
       "Bash(git push:*)",
       "Bash(git filter-branch:*)",
       "Read(//Users/prabasiva/Documents/2025/data430/fall2025_data430/**)",
-      "Bash(xargs:*)"
+      "Bash(xargs:*)",
+      "Bash(docker rm:*)",
+      "Bash(docker-compose up:*)",
+      "Bash(docker compose:*)",
+      "Bash(lsof:*)",
+      "Bash(docker ps:*)",
+      "Bash(docker logs:*)"
     ],
     "deny": [],
     "ask": []

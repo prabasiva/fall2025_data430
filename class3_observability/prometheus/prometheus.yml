@@ -43,5 +43,4 @@ alerting:
           # - alertmanager:9093
 
 # Load rules once and periodically evaluate them according to the global 'evaluation_interval'.
-rule_files:
-  # - "alert_rules.yml"
+# rule_files already defined above at line 5
