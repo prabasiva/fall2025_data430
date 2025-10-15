@@ -463,10 +463,10 @@ df = spark.createDataFrame(data, schema=order_schema)
 ```mermaid
 graph LR
     subgraph "Operations on Nested Data"
-        O1[Extract<br/>col('customer.name')]
-        O2[Explode Arrays<br/>explode('items')]
-        O3[Create Nested<br/>struct(...)]
-        O4[Collect to Arrays<br/>collect_list(...)]
+        O1[Extract<br/>col customer.name]
+        O2[Explode Arrays<br/>explode items]
+        O3[Create Nested<br/>struct columns]
+        O4[Collect to Arrays<br/>collect_list]
     end
 
     subgraph "Examples"
