@@ -293,43 +293,6 @@ You must submit:
 
 ---
 
-## Evaluation Criteria
-
-Your project will be evaluated on:
-
-### Functionality (40%)
-- Does the scraper successfully extract all quotes from all pages?
-- Is the data correctly parsed and structured?
-- Does PySpark properly process the data?
-- Is the data successfully stored in the database?
-- Can the data be queried and retrieved?
-
-### Code Quality (25%)
-- Is the code well-organized and modular?
-- Are functions and variables appropriately named?
-- Is the code properly documented?
-- Does the code follow Python best practices?
-- Is there proper error handling?
-
-### Database Design (20%)
-- Is the schema well-designed and normalized?
-- Are relationships properly implemented?
-- Is the schema efficient for querying?
-- Is data integrity maintained?
-
-### Documentation (10%)
-- Is there a clear README?
-- Are setup instructions complete and accurate?
-- Is the code properly commented?
-- Is the database schema documented?
-
-### Technical Implementation (5%)
-- Appropriate use of PySpark features
-- Efficient data processing
-- Proper use of web scraping libraries
-- Good logging practices
-
----
 
 ## Technical Challenges to Consider
 
@@ -361,54 +324,6 @@ As you work on this project, you'll need to address several challenges:
 
 ---
 
-## Development Approach
-
-### Recommended Development Phases
-
-**Phase 1: Setup and Environment**
-- Set up your development environment
-- Install all required dependencies
-- Test basic connectivity to the website
-- Test basic PySpark functionality
-- Set up your database
-
-**Phase 2: Basic Scraping**
-- Scrape a single page successfully
-- Parse and extract quote data from one page
-- Validate the extracted data
-- Save to intermediate storage
-
-**Phase 3: Full Scraping**
-- Implement pagination
-- Add error handling
-- Implement rate limiting
-- Test with all pages
-
-**Phase 4: Database Design**
-- Design your database schema
-- Create database tables
-- Test basic insert operations
-- Verify data retrieval
-
-**Phase 5: PySpark Processing**
-- Load scraped data into PySpark
-- Implement data cleaning
-- Transform data to match database schema
-- Handle relationships between entities
-
-**Phase 6: Integration**
-- Connect all components
-- Write data from PySpark to database
-- Test end-to-end pipeline
-- Verify all data is correctly stored
-
-**Phase 7: Testing and Documentation**
-- Test edge cases
-- Add comprehensive logging
-- Write documentation
-- Create usage examples
-
----
 
 ## Testing Your Project
 
@@ -468,11 +383,6 @@ After running your pipeline successfully, you should be able to:
 - Requests: https://docs.python-requests.org/
 - PySpark: https://spark.apache.org/docs/latest/api/python/
 
-### Database Documentation
-- PostgreSQL: https://www.postgresql.org/docs/
-- MySQL: https://dev.mysql.com/doc/
-- SQLite: https://www.sqlite.org/docs.html
-- MongoDB: https://www.mongodb.com/docs/
 
 ### Web Scraping Best Practices
 - Always respect robots.txt
@@ -539,28 +449,6 @@ After running your pipeline successfully, you should be able to:
 
 ---
 
-## Academic Integrity
-
-This is an individual project. While you may discuss general concepts with classmates, you must:
-
-- Write your own code
-- Design your own database schema
-- Complete your own implementation
-- Write your own documentation
-
-Copying code from online sources without proper attribution, sharing code with classmates, or submitting code you did not write yourself is a violation of academic integrity policies.
-
-You may use:
-- Official library documentation
-- Stack Overflow for specific technical questions (with attribution)
-- General tutorials on web scraping or PySpark concepts
-
-You may not:
-- Copy complete implementations from GitHub or other sources
-- Share your code with other students
-- Submit code written by AI tools without significant modification and understanding
-
----
 
 ## Getting Help
 
@@ -575,19 +463,6 @@ If you encounter issues:
 
 ---
 
-## Timeline
-
-Recommended timeline for completion:
-
-- **Week 1**: Setup environment, basic scraping of single page
-- **Week 2**: Full scraping with pagination, save raw data
-- **Week 3**: Database design, PySpark data processing
-- **Week 4**: Integration, testing, documentation
-- **Week 5**: Final testing, refinement, submission preparation
-
-Start early and work incrementally. Don't wait until the last minute!
-
----
 
 ## Frequently Asked Questions
 
