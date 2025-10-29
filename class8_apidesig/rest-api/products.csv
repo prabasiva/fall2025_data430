@@ -1,0 +1,1001 @@
+product_id,name,category,price,quantity_in_stock,sales,last_stock_date,supplier
+PROD0001,Biography Standard,Books,372.38,14,209,2025-10-14,Supplier D
+PROD0002,T-Shirt Pro,Clothing,332.87,104,171,2024-12-13,Supplier E
+PROD0003,Headphones Premium,Electronics,556.19,408,597,2023-12-23,Supplier D
+PROD0004,Pot Premium,Home & Kitchen,909.51,180,569,2024-01-21,Supplier B
+PROD0005,Bicycle Premium,Sports,935.48,456,548,2025-09-21,Supplier A
+PROD0006,Microwave Standard,Home & Kitchen,185.01,266,523,2024-07-27,Supplier E
+PROD0007,Tire Pro,Automotive,218.33,444,604,2024-03-22,Supplier C
+PROD0008,Tablet Standard,Electronics,15.42,222,459,2025-10-14,Supplier A
+PROD0009,Running Shoes Deluxe,Sports,560.63,58,483,2025-06-16,Supplier A
+PROD0010,Socks Standard,Clothing,913.18,135,724,2024-10-21,Supplier C
+PROD0011,Keyboard Standard,Electronics,940.63,389,951,2024-03-09,Supplier E
+PROD0012,Tire Standard,Automotive,239.94,325,335,2023-11-22,Supplier B
+PROD0013,Monitor Pro,Electronics,811.15,201,296,2025-10-24,Supplier E
+PROD0014,Sunscreen Standard,Beauty,636.39,487,38,2024-11-08,Supplier B
+PROD0015,Headphones Elite,Electronics,696.21,490,953,2023-12-22,Supplier B
+PROD0016,Spark Plug Elite,Automotive,994.01,293,889,2024-10-01,Supplier C
+PROD0017,Play-Doh Premium,Toys,847.13,78,809,2024-02-02,Supplier E
+PROD0018,Mystery Standard,Books,236.34,485,372,2024-08-02,Supplier B
+PROD0019,Air Filter Premium,Automotive,242.01,147,804,2024-05-29,Supplier D
+PROD0020,Kite Basic,Toys,752.89,405,946,2024-10-10,Supplier C
+PROD0021,Speaker Deluxe,Electronics,841.77,106,262,2024-11-26,Supplier E
+PROD0022,Action Figure Elite,Toys,331.91,230,159,2024-06-03,Supplier E
+PROD0023,Face Mask Premium,Beauty,557.35,7,368,2024-03-24,Supplier A
+PROD0024,Doll Standard,Toys,796.72,46,856,2024-10-27,Supplier D
+PROD0025,Fiction Novel Deluxe,Books,466.34,291,543,2025-03-07,Supplier B
+PROD0026,Kite Elite,Toys,180.94,399,932,2025-01-03,Supplier B
+PROD0027,Foundation Pro,Beauty,621.52,266,583,2025-10-21,Supplier E
+PROD0028,Charger Standard,Electronics,405.25,53,891,2024-01-13,Supplier A
+PROD0029,Mystery Pro,Books,584.69,489,798,2024-03-06,Supplier C
+PROD0030,Eye Shadow Premium,Beauty,14.14,257,635,2025-01-13,Supplier C
+PROD0031,Keyboard Elite,Electronics,722.39,91,587,2024-12-31,Supplier E
+PROD0032,Mouse Premium,Electronics,111.62,151,413,2024-12-04,Supplier B
+PROD0033,Board Game Basic,Toys,302.87,89,285,2025-09-29,Supplier C
+PROD0034,Shorts Standard,Clothing,554.22,121,866,2024-06-07,Supplier E
+PROD0035,Coffee Maker Premium,Home & Kitchen,69.72,458,792,2024-05-22,Supplier E
+PROD0036,Helmet Pro,Sports,893.66,434,484,2024-06-12,Supplier C
+PROD0037,Football Premium,Sports,710.24,494,96,2023-12-08,Supplier A
+PROD0038,Poetry Standard,Books,467.7,125,882,2025-08-15,Supplier E
+PROD0039,Self-Help Basic,Books,19.61,483,867,2023-11-12,Supplier B
+PROD0040,Smartphone Deluxe,Electronics,422.88,207,444,2025-09-18,Supplier C
+PROD0041,Laptop Standard,Electronics,938.2,139,331,2024-01-03,Supplier C
+PROD0042,Self-Help Basic,Books,429.08,91,498,2025-04-16,Supplier C
+PROD0043,Mouse Premium,Electronics,982.97,366,270,2024-10-02,Supplier C
+PROD0044,Toaster Basic,Home & Kitchen,886.83,313,11,2025-03-30,Supplier D
+PROD0045,Shorts Premium,Clothing,579.46,232,409,2024-02-06,Supplier D
+PROD0046,Plate Set Standard,Home & Kitchen,808.24,182,893,2025-05-10,Supplier C
+PROD0047,Doll Premium,Toys,443.72,284,937,2025-07-03,Supplier A
+PROD0048,Knife Set Basic,Home & Kitchen,730.5,432,741,2024-12-29,Supplier D
+PROD0049,Cup Pro,Home & Kitchen,411.41,481,249,2025-05-10,Supplier B
+PROD0050,Shampoo Premium,Beauty,440.12,397,876,2023-11-10,Supplier C
+PROD0051,Puzzle Premium,Toys,745.96,173,739,2024-11-28,Supplier D
+PROD0052,Headphones Basic,Electronics,375.3,167,33,2025-08-13,Supplier C
+PROD0053,Cookbook Elite,Books,410.61,39,403,2024-05-02,Supplier B
+PROD0054,Fork Set Deluxe,Home & Kitchen,323.16,157,355,2025-03-01,Supplier A
+PROD0055,Fork Set Basic,Home & Kitchen,581.54,321,866,2024-01-13,Supplier A
+PROD0056,Speaker Standard,Electronics,397.06,180,325,2024-08-24,Supplier E
+PROD0057,Spark Plug Standard,Automotive,909.57,454,464,2025-09-01,Supplier C
+PROD0058,Foundation Basic,Beauty,593.27,435,0,2024-02-29,Supplier C
+PROD0059,Self-Help Pro,Books,940.82,54,638,2023-11-15,Supplier E
+PROD0060,Running Shoes Elite,Sports,231.92,384,817,2024-06-25,Supplier E
+PROD0061,Knife Set Premium,Home & Kitchen,263.85,429,167,2024-11-26,Supplier B
+PROD0062,Mouse Deluxe,Electronics,83.06,289,198,2024-04-10,Supplier C
+PROD0063,Battery Premium,Automotive,279.95,442,361,2024-01-29,Supplier A
+PROD0064,Dictionary Premium,Books,231.36,93,846,2024-05-29,Supplier D
+PROD0065,Blender Deluxe,Home & Kitchen,56.63,17,318,2024-09-27,Supplier A
+PROD0066,Atlas Premium,Books,979.43,422,145,2024-11-27,Supplier C
+PROD0067,Doll Premium,Toys,815.76,443,386,2024-06-09,Supplier A
+PROD0068,Coat Basic,Clothing,423.9,491,744,2025-01-11,Supplier D
+PROD0069,Dress Pro,Clothing,724.58,60,650,2024-04-04,Supplier C
+PROD0070,Pan Basic,Home & Kitchen,388.33,486,648,2024-01-17,Supplier B
+PROD0071,Running Shoes Deluxe,Sports,960.06,410,954,2024-02-15,Supplier A
+PROD0072,Battery Elite,Automotive,393.65,205,499,2024-01-21,Supplier E
+PROD0073,Self-Help Premium,Books,189.89,256,484,2024-10-25,Supplier A
+PROD0074,Pot Deluxe,Home & Kitchen,129.84,449,642,2024-04-08,Supplier D
+PROD0075,Ball Standard,Toys,418.25,260,623,2024-03-20,Supplier D
+PROD0076,Dress Standard,Clothing,640.4,379,912,2023-12-21,Supplier D
+PROD0077,Mouse Elite,Electronics,191.31,333,33,2025-10-27,Supplier E
+PROD0078,Battery Standard,Automotive,694.99,33,279,2024-07-20,Supplier C
+PROD0079,Gym Bag Standard,Sports,826.07,396,607,2024-05-15,Supplier B
+PROD0080,Stuffed Animal Basic,Toys,87.16,116,708,2023-12-07,Supplier C
+PROD0081,History Elite,Books,531.96,458,191,2025-06-16,Supplier A
+PROD0082,Football Deluxe,Sports,998.25,146,586,2024-11-08,Supplier D
+PROD0083,Laptop Elite,Electronics,967.3,312,566,2024-06-12,Supplier D
+PROD0084,Monitor Premium,Electronics,936.24,29,946,2024-12-06,Supplier C
+PROD0085,Dress Standard,Clothing,856.31,187,716,2025-10-22,Supplier B
+PROD0086,Dress Standard,Clothing,686.32,366,621,2024-07-15,Supplier A
+PROD0087,Board Game Standard,Toys,926.94,254,503,2024-05-26,Supplier A
+PROD0088,Sweater Elite,Clothing,991.53,161,789,2024-06-28,Supplier C
+PROD0089,Gym Bag Pro,Sports,416.29,3,100,2024-01-27,Supplier A
+PROD0090,Plate Set Premium,Home & Kitchen,768.2,484,576,2025-09-16,Supplier E
+PROD0091,Phone Mount Standard,Automotive,372.95,191,148,2025-08-10,Supplier E
+PROD0092,Brake Pads Deluxe,Automotive,234.7,255,231,2024-12-13,Supplier A
+PROD0093,Tire Deluxe,Automotive,985.12,282,605,2025-07-22,Supplier C
+PROD0094,Tennis Racket Deluxe,Sports,514.16,328,597,2025-07-29,Supplier C
+PROD0095,Plate Set Standard,Home & Kitchen,97.02,46,116,2025-06-07,Supplier A
+PROD0096,Poetry Elite,Books,356.08,371,897,2024-12-19,Supplier D
+PROD0097,Puzzle Premium,Toys,280.09,149,349,2023-11-02,Supplier A
+PROD0098,Oil Filter Deluxe,Automotive,596.11,164,933,2025-03-22,Supplier C
+PROD0099,Action Figure Premium,Toys,60.04,269,68,2025-04-10,Supplier E
+PROD0100,Cup Deluxe,Home & Kitchen,238.3,120,641,2025-03-25,Supplier B
+PROD0101,Doll Basic,Toys,37.53,302,643,2025-05-12,Supplier A
+PROD0102,Gym Bag Basic,Sports,890.84,289,22,2025-09-12,Supplier A
+PROD0103,Speaker Basic,Electronics,261.71,215,808,2024-07-29,Supplier A
+PROD0104,Tire Standard,Automotive,768.8,367,639,2024-08-30,Supplier D
+PROD0105,Sweater Premium,Clothing,316.57,119,946,2024-12-02,Supplier A
+PROD0106,Wiper Blades Pro,Automotive,298.03,159,419,2023-12-18,Supplier B
+PROD0107,Basketball Elite,Sports,726.19,454,346,2025-02-17,Supplier A
+PROD0108,Science Fiction Basic,Books,56.33,243,92,2025-02-15,Supplier A
+PROD0109,Camera Deluxe,Electronics,885.1,485,325,2024-01-20,Supplier B
+PROD0110,Foundation Pro,Beauty,910.42,454,522,2024-03-14,Supplier B
+PROD0111,Spark Plug Pro,Automotive,150.18,333,99,2025-02-05,Supplier A
+PROD0112,Cup Pro,Home & Kitchen,195.36,434,374,2024-02-06,Supplier B
+PROD0113,Cookbook Standard,Books,330.16,219,611,2024-06-26,Supplier A
+PROD0114,Water Bottle Elite,Sports,823.29,433,516,2025-07-27,Supplier C
+PROD0115,Nail Polish Standard,Beauty,904.97,23,162,2024-11-08,Supplier E
+PROD0116,Cookbook Premium,Books,514.47,82,494,2025-08-23,Supplier D
+PROD0117,Science Fiction Premium,Books,915.38,120,264,2024-03-05,Supplier B
+PROD0118,Kite Premium,Toys,623.43,257,889,2024-10-25,Supplier A
+PROD0119,Self-Help Premium,Books,649.09,151,88,2025-10-14,Supplier A
+PROD0120,Play-Doh Basic,Toys,596.36,387,438,2024-11-14,Supplier E
+PROD0121,Keyboard Standard,Electronics,941.17,472,183,2024-08-29,Supplier C
+PROD0122,Air Filter Deluxe,Automotive,339.09,26,873,2024-02-11,Supplier B
+PROD0123,Mystery Premium,Books,736.14,277,628,2024-10-22,Supplier A
+PROD0124,Car Cover Elite,Automotive,316.1,203,515,2024-08-03,Supplier E
+PROD0125,Self-Help Deluxe,Books,449.98,85,840,2025-05-01,Supplier A
+PROD0126,Stuffed Animal Premium,Toys,339.09,176,182,2024-09-13,Supplier B
+PROD0127,Brake Pads Pro,Automotive,106.44,187,81,2025-06-10,Supplier D
+PROD0128,Gym Bag Pro,Sports,407.88,498,872,2024-06-15,Supplier B
+PROD0129,Floor Mats Premium,Automotive,692.93,147,729,2025-10-28,Supplier D
+PROD0130,Keyboard Standard,Electronics,400.84,186,965,2024-11-05,Supplier A
+PROD0131,Cookbook Elite,Books,141.42,229,260,2024-02-16,Supplier E
+PROD0132,Cup Basic,Home & Kitchen,250.84,112,900,2025-08-19,Supplier C
+PROD0133,Pan Basic,Home & Kitchen,445.99,475,438,2024-12-20,Supplier A
+PROD0134,Smartphone Pro,Electronics,923.54,321,575,2024-11-03,Supplier A
+PROD0135,History Pro,Books,745.39,487,439,2025-01-11,Supplier C
+PROD0136,Shoes Standard,Clothing,387.51,239,759,2024-07-16,Supplier C
+PROD0137,Ball Elite,Toys,816.78,25,362,2025-08-01,Supplier C
+PROD0138,Nail Polish Basic,Beauty,334.59,460,621,2024-10-08,Supplier D
+PROD0139,Shorts Basic,Clothing,610.36,150,557,2024-12-24,Supplier D
+PROD0140,Monitor Elite,Electronics,191.89,339,81,2025-05-25,Supplier A
+PROD0141,Socks Basic,Clothing,101.44,419,822,2025-06-26,Supplier E
+PROD0142,Tire Pro,Automotive,460.21,0,170,2024-11-19,Supplier B
+PROD0143,Car Cover Elite,Automotive,848.0,96,671,2025-02-10,Supplier E
+PROD0144,Camera Pro,Electronics,247.92,227,46,2023-12-31,Supplier A
+PROD0145,Science Fiction Deluxe,Books,375.6,494,538,2024-03-23,Supplier A
+PROD0146,Play-Doh Elite,Toys,68.36,311,929,2024-11-27,Supplier C
+PROD0147,Moisturizer Pro,Beauty,344.42,232,872,2025-10-01,Supplier C
+PROD0148,Sweater Elite,Clothing,784.97,142,480,2025-08-05,Supplier A
+PROD0149,Face Mask Pro,Beauty,416.38,272,277,2024-11-02,Supplier B
+PROD0150,History Premium,Books,936.87,310,84,2024-05-31,Supplier B
+PROD0151,Socks Pro,Clothing,96.4,328,920,2024-08-17,Supplier C
+PROD0152,Tire Basic,Automotive,25.4,417,52,2025-06-06,Supplier E
+PROD0153,Knife Set Deluxe,Home & Kitchen,538.39,176,290,2023-11-17,Supplier E
+PROD0154,Stuffed Animal Pro,Toys,940.49,317,910,2024-10-21,Supplier E
+PROD0155,Sunscreen Basic,Beauty,850.02,251,196,2023-12-29,Supplier D
+PROD0156,Stuffed Animal Standard,Toys,339.15,157,939,2024-06-08,Supplier C
+PROD0157,Car Cover Standard,Automotive,65.82,465,71,2024-07-18,Supplier C
+PROD0158,Atlas Elite,Books,80.21,15,411,2024-04-09,Supplier D
+PROD0159,Wiper Blades Standard,Automotive,771.29,250,846,2025-04-28,Supplier C
+PROD0160,Football Elite,Sports,6.98,446,621,2025-04-01,Supplier E
+PROD0161,Water Bottle Elite,Sports,985.74,15,56,2025-06-24,Supplier C
+PROD0162,Charger Pro,Electronics,362.79,197,192,2024-06-05,Supplier D
+PROD0163,Hair Dryer Elite,Beauty,973.25,493,564,2025-10-16,Supplier E
+PROD0164,Face Mask Premium,Beauty,950.82,34,787,2024-05-06,Supplier D
+PROD0165,Yoga Mat Premium,Sports,995.95,326,241,2025-07-14,Supplier B
+PROD0166,Biography Premium,Books,870.6,454,876,2024-07-26,Supplier A
+PROD0167,Running Shoes Standard,Sports,832.88,185,597,2025-07-04,Supplier B
+PROD0168,Car Cover Premium,Automotive,417.07,198,372,2024-05-26,Supplier B
+PROD0169,Brake Pads Elite,Automotive,334.64,223,413,2025-02-13,Supplier B
+PROD0170,Phone Mount Pro,Automotive,402.7,23,671,2024-01-05,Supplier A
+PROD0171,History Premium,Books,410.73,97,180,2024-11-14,Supplier C
+PROD0172,Helmet Elite,Sports,681.68,145,41,2025-06-06,Supplier A
+PROD0173,Stuffed Animal Basic,Toys,554.79,265,130,2024-01-15,Supplier B
+PROD0174,Science Fiction Elite,Books,578.33,461,856,2024-01-21,Supplier A
+PROD0175,Atlas Deluxe,Books,443.35,278,533,2025-03-10,Supplier D
+PROD0176,Hat Elite,Clothing,606.49,202,32,2025-01-24,Supplier E
+PROD0177,Hat Elite,Clothing,933.09,175,995,2025-09-26,Supplier B
+PROD0178,Fiction Novel Basic,Books,514.88,372,994,2024-01-02,Supplier E
+PROD0179,Eye Shadow Deluxe,Beauty,724.97,484,203,2023-12-07,Supplier D
+PROD0180,Air Filter Elite,Automotive,559.88,350,82,2025-01-02,Supplier D
+PROD0181,Socks Premium,Clothing,155.32,47,261,2025-03-22,Supplier C
+PROD0182,Air Filter Pro,Automotive,314.1,296,517,2023-11-12,Supplier B
+PROD0183,Fiction Novel Elite,Books,796.99,476,929,2023-11-09,Supplier A
+PROD0184,Speaker Pro,Electronics,873.96,350,974,2024-05-08,Supplier E
+PROD0185,Hat Elite,Clothing,236.89,174,126,2025-06-27,Supplier A
+PROD0186,Helmet Deluxe,Sports,315.37,51,926,2024-07-02,Supplier C
+PROD0187,Play-Doh Deluxe,Toys,750.0,179,580,2025-03-16,Supplier D
+PROD0188,Blender Deluxe,Home & Kitchen,459.17,369,311,2025-09-08,Supplier D
+PROD0189,Monitor Elite,Electronics,600.48,92,194,2025-04-22,Supplier A
+PROD0190,Shampoo Elite,Beauty,406.39,383,721,2024-05-28,Supplier E
+PROD0191,Tire Deluxe,Automotive,957.72,369,514,2025-06-22,Supplier C
+PROD0192,Nail Polish Standard,Beauty,466.98,285,291,2024-12-20,Supplier B
+PROD0193,Water Bottle Premium,Sports,663.25,98,126,2025-03-02,Supplier D
+PROD0194,Atlas Standard,Books,47.82,354,930,2024-07-29,Supplier D
+PROD0195,Nail Polish Deluxe,Beauty,188.64,25,475,2023-10-30,Supplier B
+PROD0196,Eye Shadow Premium,Beauty,707.98,382,266,2025-10-03,Supplier E
+PROD0197,Water Bottle Elite,Sports,311.71,317,770,2024-02-25,Supplier E
+PROD0198,Kite Premium,Toys,324.45,87,402,2023-12-31,Supplier B
+PROD0199,Kite Deluxe,Toys,311.82,247,861,2025-07-11,Supplier E
+PROD0200,Tennis Racket Standard,Sports,633.77,77,288,2024-05-30,Supplier C
+PROD0201,Brake Pads Pro,Automotive,482.09,430,141,2024-03-28,Supplier A
+PROD0202,Phone Mount Elite,Automotive,737.38,17,347,2023-11-15,Supplier D
+PROD0203,Self-Help Basic,Books,557.97,6,50,2024-10-31,Supplier E
+PROD0204,Spark Plug Standard,Automotive,571.36,375,171,2024-10-06,Supplier B
+PROD0205,Shampoo Premium,Beauty,34.99,352,217,2023-12-26,Supplier A
+PROD0206,Jacket Standard,Clothing,173.41,315,101,2024-01-25,Supplier C
+PROD0207,Dictionary Standard,Books,35.56,118,865,2025-03-15,Supplier D
+PROD0208,Headphones Premium,Electronics,271.77,116,602,2024-10-25,Supplier B
+PROD0209,Microwave Premium,Home & Kitchen,936.01,492,791,2025-07-23,Supplier B
+PROD0210,Speaker Basic,Electronics,308.34,253,473,2024-02-09,Supplier B
+PROD0211,Self-Help Deluxe,Books,665.56,271,885,2025-06-19,Supplier A
+PROD0212,Battery Premium,Automotive,697.57,454,604,2024-01-23,Supplier C
+PROD0213,Eye Shadow Premium,Beauty,569.0,462,77,2023-12-17,Supplier D
+PROD0214,Bicycle Deluxe,Sports,261.07,446,732,2025-04-04,Supplier E
+PROD0215,Tire Basic,Automotive,859.37,67,434,2025-03-27,Supplier D
+PROD0216,Helmet Deluxe,Sports,347.64,330,598,2025-08-26,Supplier B
+PROD0217,Ball Basic,Toys,249.14,179,989,2025-04-20,Supplier B
+PROD0218,Atlas Deluxe,Books,303.65,496,414,2024-05-23,Supplier D
+PROD0219,Science Fiction Premium,Books,855.72,432,183,2025-09-23,Supplier B
+PROD0220,Helmet Premium,Sports,649.77,209,738,2024-10-12,Supplier B
+PROD0221,Kite Elite,Toys,223.99,464,68,2025-05-12,Supplier C
+PROD0222,Camera Premium,Electronics,553.39,146,725,2025-07-10,Supplier D
+PROD0223,Shoes Deluxe,Clothing,286.73,462,349,2024-08-05,Supplier D
+PROD0224,Kite Basic,Toys,157.37,247,763,2024-10-23,Supplier A
+PROD0225,Floor Mats Elite,Automotive,648.7,414,150,2025-07-22,Supplier A
+PROD0226,Fiction Novel Basic,Books,425.21,159,476,2024-09-23,Supplier A
+PROD0227,Shoes Elite,Clothing,699.17,157,731,2024-05-25,Supplier B
+PROD0228,Smartphone Premium,Electronics,490.89,399,442,2024-12-06,Supplier A
+PROD0229,Mystery Elite,Books,218.79,64,129,2025-01-27,Supplier D
+PROD0230,Running Shoes Premium,Sports,430.75,336,249,2025-08-16,Supplier D
+PROD0231,Floor Mats Deluxe,Automotive,16.22,4,86,2025-07-18,Supplier A
+PROD0232,Nail Polish Elite,Beauty,794.14,207,688,2025-10-12,Supplier B
+PROD0233,Wiper Blades Basic,Automotive,544.64,86,464,2024-09-14,Supplier C
+PROD0234,Tablet Standard,Electronics,379.29,437,370,2024-05-09,Supplier E
+PROD0235,Play-Doh Deluxe,Toys,587.38,12,272,2024-10-18,Supplier A
+PROD0236,Toaster Elite,Home & Kitchen,811.63,182,835,2025-06-13,Supplier C
+PROD0237,Microwave Standard,Home & Kitchen,842.96,178,138,2024-11-22,Supplier C
+PROD0238,Spark Plug Elite,Automotive,407.46,341,431,2023-11-03,Supplier A
+PROD0239,Doll Elite,Toys,51.54,261,721,2025-08-01,Supplier D
+PROD0240,Basketball Standard,Sports,741.83,440,881,2025-01-17,Supplier B
+PROD0241,Action Figure Basic,Toys,179.88,328,641,2025-02-09,Supplier B
+PROD0242,Battery Premium,Automotive,789.17,455,913,2024-12-17,Supplier D
+PROD0243,Shorts Pro,Clothing,576.36,110,441,2025-07-29,Supplier D
+PROD0244,T-Shirt Basic,Clothing,341.16,285,923,2024-09-19,Supplier B
+PROD0245,Remote Car Elite,Toys,356.64,151,358,2025-01-07,Supplier D
+PROD0246,Pot Standard,Home & Kitchen,88.03,367,880,2025-03-30,Supplier D
+PROD0247,Spark Plug Deluxe,Automotive,973.04,181,991,2024-01-25,Supplier E
+PROD0248,Dress Elite,Clothing,243.12,477,918,2025-07-27,Supplier A
+PROD0249,Atlas Standard,Books,123.89,13,11,2025-07-28,Supplier E
+PROD0250,Floor Mats Deluxe,Automotive,377.26,32,416,2025-07-10,Supplier D
+PROD0251,Sweater Pro,Clothing,873.48,446,907,2024-10-06,Supplier B
+PROD0252,Play-Doh Premium,Toys,767.79,198,545,2025-09-03,Supplier E
+PROD0253,Jeans Deluxe,Clothing,162.07,251,894,2024-02-15,Supplier E
+PROD0254,Air Filter Premium,Automotive,950.2,103,215,2023-11-09,Supplier C
+PROD0255,Lipstick Elite,Beauty,921.59,479,43,2024-02-03,Supplier C
+PROD0256,Doll Premium,Toys,410.42,316,179,2024-11-21,Supplier B
+PROD0257,Poetry Elite,Books,918.06,488,972,2025-05-17,Supplier C
+PROD0258,Action Figure Elite,Toys,660.29,490,420,2024-10-19,Supplier E
+PROD0259,Hat Elite,Clothing,576.93,469,653,2025-07-28,Supplier E
+PROD0260,Tennis Racket Elite,Sports,198.5,260,869,2024-02-04,Supplier A
+PROD0261,Foundation Pro,Beauty,75.79,124,79,2025-08-18,Supplier D
+PROD0262,Bicycle Elite,Sports,320.11,438,774,2025-03-31,Supplier D
+PROD0263,Charger Pro,Electronics,132.27,140,255,2024-08-25,Supplier D
+PROD0264,Lipstick Standard,Beauty,407.95,220,466,2023-12-25,Supplier C
+PROD0265,Jacket Pro,Clothing,915.56,439,17,2024-04-29,Supplier C
+PROD0266,Pot Standard,Home & Kitchen,158.36,115,987,2024-06-11,Supplier C
+PROD0267,History Deluxe,Books,648.95,37,258,2024-08-11,Supplier E
+PROD0268,Board Game Standard,Toys,924.83,210,839,2025-10-17,Supplier C
+PROD0269,Microwave Basic,Home & Kitchen,380.32,394,707,2025-08-31,Supplier A
+PROD0270,Stuffed Animal Elite,Toys,420.84,289,764,2024-09-02,Supplier C
+PROD0271,Battery Deluxe,Automotive,9.23,456,731,2025-02-18,Supplier B
+PROD0272,Water Bottle Pro,Sports,706.22,479,360,2025-09-18,Supplier D
+PROD0273,Doll Standard,Toys,124.28,68,858,2025-09-03,Supplier B
+PROD0274,Headphones Premium,Electronics,130.31,186,205,2023-12-23,Supplier C
+PROD0275,Laptop Pro,Electronics,536.3,33,673,2024-01-21,Supplier C
+PROD0276,Hair Dryer Deluxe,Beauty,165.61,68,627,2025-06-30,Supplier E
+PROD0277,Poetry Standard,Books,546.38,194,520,2025-07-13,Supplier B
+PROD0278,Pot Standard,Home & Kitchen,717.69,43,753,2025-06-01,Supplier D
+PROD0279,Charger Pro,Electronics,736.03,444,790,2024-05-17,Supplier C
+PROD0280,Coat Premium,Clothing,984.33,32,941,2024-09-21,Supplier B
+PROD0281,Puzzle Standard,Toys,421.5,411,843,2024-05-18,Supplier A
+PROD0282,Battery Elite,Automotive,247.51,257,158,2025-09-09,Supplier B
+PROD0283,Socks Premium,Clothing,503.08,432,653,2025-07-12,Supplier B
+PROD0284,Ball Basic,Toys,922.21,336,805,2025-05-17,Supplier B
+PROD0285,Phone Mount Elite,Automotive,875.15,152,895,2024-08-04,Supplier B
+PROD0286,Fiction Novel Standard,Books,82.6,91,310,2024-09-08,Supplier B
+PROD0287,Dumbbell Pro,Sports,930.93,127,960,2023-12-03,Supplier E
+PROD0288,Yoga Mat Standard,Sports,122.93,136,654,2025-03-20,Supplier D
+PROD0289,Self-Help Standard,Books,519.77,11,682,2025-05-03,Supplier C
+PROD0290,Microwave Pro,Home & Kitchen,263.43,165,521,2025-07-21,Supplier C
+PROD0291,Sunscreen Standard,Beauty,78.1,493,316,2025-05-24,Supplier E
+PROD0292,Fiction Novel Standard,Books,492.43,101,139,2024-10-22,Supplier C
+PROD0293,Cup Deluxe,Home & Kitchen,155.97,491,368,2024-07-21,Supplier E
+PROD0294,Plate Set Premium,Home & Kitchen,487.75,177,352,2025-09-06,Supplier C
+PROD0295,Face Mask Elite,Beauty,129.54,446,380,2024-04-18,Supplier C
+PROD0296,Tennis Racket Standard,Sports,308.64,432,445,2025-05-04,Supplier E
+PROD0297,Fiction Novel Premium,Books,239.03,293,126,2024-11-16,Supplier B
+PROD0298,Wiper Blades Elite,Automotive,573.99,119,782,2024-07-28,Supplier B
+PROD0299,Mouse Premium,Electronics,832.7,371,16,2025-10-22,Supplier D
+PROD0300,Sweater Elite,Clothing,175.41,201,149,2025-08-03,Supplier E
+PROD0301,Smartphone Pro,Electronics,216.07,419,864,2025-04-12,Supplier B
+PROD0302,Poetry Elite,Books,475.45,462,649,2023-11-06,Supplier B
+PROD0303,Shorts Deluxe,Clothing,792.66,25,38,2025-05-19,Supplier B
+PROD0304,Football Basic,Sports,568.13,336,117,2024-09-29,Supplier E
+PROD0305,Self-Help Deluxe,Books,584.79,183,23,2024-07-21,Supplier A
+PROD0306,Hair Dryer Standard,Beauty,162.75,91,401,2024-11-13,Supplier C
+PROD0307,Biography Pro,Books,289.55,397,446,2024-08-30,Supplier D
+PROD0308,Shorts Basic,Clothing,636.94,298,884,2024-04-07,Supplier D
+PROD0309,Biography Basic,Books,95.81,277,935,2025-02-08,Supplier E
+PROD0310,Battery Basic,Automotive,175.74,424,257,2025-09-09,Supplier C
+PROD0311,Wiper Blades Elite,Automotive,144.71,294,601,2024-04-09,Supplier B
+PROD0312,Basketball Elite,Sports,758.86,408,244,2024-11-19,Supplier C
+PROD0313,Jacket Basic,Clothing,575.88,398,694,2023-12-12,Supplier B
+PROD0314,Tablet Deluxe,Electronics,384.73,380,681,2024-10-22,Supplier D
+PROD0315,Coat Elite,Clothing,881.74,119,413,2024-07-26,Supplier B
+PROD0316,Shorts Standard,Clothing,216.69,356,102,2024-09-29,Supplier C
+PROD0317,Water Bottle Standard,Sports,674.83,94,451,2024-07-22,Supplier D
+PROD0318,Air Filter Premium,Automotive,867.99,415,846,2025-08-14,Supplier D
+PROD0319,Headphones Deluxe,Electronics,737.64,339,424,2024-11-04,Supplier A
+PROD0320,Camera Basic,Electronics,28.33,56,22,2025-10-26,Supplier B
+PROD0321,Sweater Standard,Clothing,762.79,474,656,2024-11-13,Supplier E
+PROD0322,Hat Pro,Clothing,133.55,232,498,2024-01-20,Supplier A
+PROD0323,Tablet Elite,Electronics,551.13,456,748,2023-11-01,Supplier A
+PROD0324,Shoes Deluxe,Clothing,668.8,87,382,2024-05-12,Supplier C
+PROD0325,Oil Filter Standard,Automotive,967.98,26,771,2025-01-15,Supplier A
+PROD0326,Headphones Standard,Electronics,932.92,228,237,2024-01-18,Supplier D
+PROD0327,Blender Standard,Home & Kitchen,686.82,216,21,2024-09-12,Supplier A
+PROD0328,Play-Doh Pro,Toys,928.28,194,275,2024-07-05,Supplier D
+PROD0329,Puzzle Pro,Toys,689.13,166,241,2025-06-30,Supplier A
+PROD0330,Dress Elite,Clothing,608.65,12,52,2024-12-06,Supplier B
+PROD0331,Toaster Pro,Home & Kitchen,87.54,448,372,2025-06-15,Supplier C
+PROD0332,Jeans Pro,Clothing,976.3,494,935,2024-10-07,Supplier B
+PROD0333,Charger Elite,Electronics,249.14,207,597,2024-11-17,Supplier C
+PROD0334,T-Shirt Pro,Clothing,395.04,465,589,2025-04-29,Supplier E
+PROD0335,Coat Deluxe,Clothing,470.99,253,327,2024-01-10,Supplier B
+PROD0336,Football Deluxe,Sports,840.18,430,49,2024-01-12,Supplier E
+PROD0337,Kite Deluxe,Toys,526.95,205,430,2024-08-25,Supplier A
+PROD0338,Floor Mats Pro,Automotive,968.52,209,64,2024-05-22,Supplier C
+PROD0339,Brake Pads Pro,Automotive,967.95,397,753,2025-07-02,Supplier C
+PROD0340,Running Shoes Standard,Sports,420.81,410,335,2023-12-19,Supplier C
+PROD0341,Tire Premium,Automotive,278.8,146,252,2024-12-11,Supplier D
+PROD0342,Pot Premium,Home & Kitchen,565.0,29,935,2025-06-24,Supplier A
+PROD0343,Speaker Deluxe,Electronics,464.59,223,858,2025-01-11,Supplier A
+PROD0344,Charger Basic,Electronics,338.23,471,423,2024-05-05,Supplier D
+PROD0345,Knife Set Deluxe,Home & Kitchen,543.64,483,374,2024-10-24,Supplier B
+PROD0346,Running Shoes Deluxe,Sports,544.87,165,349,2025-01-04,Supplier C
+PROD0347,Gym Bag Deluxe,Sports,910.94,74,494,2025-10-23,Supplier A
+PROD0348,Football Deluxe,Sports,668.88,292,611,2024-04-16,Supplier E
+PROD0349,Jeans Standard,Clothing,612.59,43,150,2024-09-02,Supplier E
+PROD0350,Blender Pro,Home & Kitchen,544.77,287,790,2024-11-19,Supplier C
+PROD0351,Camera Deluxe,Electronics,842.71,210,811,2024-04-18,Supplier B
+PROD0352,Charger Premium,Electronics,316.35,85,653,2025-03-14,Supplier B
+PROD0353,Hat Elite,Clothing,547.45,489,308,2024-04-13,Supplier D
+PROD0354,Kite Elite,Toys,846.56,343,96,2024-06-10,Supplier A
+PROD0355,Bicycle Deluxe,Sports,462.61,466,434,2025-09-30,Supplier B
+PROD0356,Plate Set Pro,Home & Kitchen,616.69,239,364,2024-04-19,Supplier E
+PROD0357,Pan Standard,Home & Kitchen,240.91,107,543,2024-03-13,Supplier C
+PROD0358,Jacket Deluxe,Clothing,219.23,61,262,2024-06-05,Supplier D
+PROD0359,Phone Mount Pro,Automotive,837.44,362,146,2024-11-26,Supplier A
+PROD0360,Gym Bag Pro,Sports,731.0,68,514,2025-10-01,Supplier C
+PROD0361,Brake Pads Deluxe,Automotive,114.66,480,158,2025-07-14,Supplier E
+PROD0362,Plate Set Premium,Home & Kitchen,366.3,237,653,2024-05-09,Supplier E
+PROD0363,Jeans Basic,Clothing,750.36,483,977,2025-01-02,Supplier C
+PROD0364,Running Shoes Premium,Sports,378.31,316,70,2025-05-16,Supplier A
+PROD0365,Socks Basic,Clothing,943.58,305,396,2024-08-29,Supplier C
+PROD0366,Moisturizer Elite,Beauty,992.18,229,407,2025-02-28,Supplier E
+PROD0367,Keyboard Deluxe,Electronics,19.19,100,267,2025-02-09,Supplier B
+PROD0368,Perfume Standard,Beauty,81.46,64,513,2025-07-06,Supplier C
+PROD0369,T-Shirt Deluxe,Clothing,955.89,466,87,2025-07-27,Supplier E
+PROD0370,Dress Basic,Clothing,177.34,253,418,2024-03-21,Supplier E
+PROD0371,Doll Elite,Toys,758.1,331,905,2024-12-17,Supplier E
+PROD0372,Action Figure Premium,Toys,792.5,108,382,2024-01-25,Supplier E
+PROD0373,Coat Standard,Clothing,341.91,393,821,2024-02-29,Supplier C
+PROD0374,Hat Basic,Clothing,310.08,194,34,2024-02-26,Supplier D
+PROD0375,Remote Car Basic,Toys,82.39,478,6,2025-04-16,Supplier E
+PROD0376,Hat Premium,Clothing,781.88,389,753,2025-04-28,Supplier D
+PROD0377,Coffee Maker Pro,Home & Kitchen,987.47,233,973,2025-04-18,Supplier D
+PROD0378,Puzzle Pro,Toys,185.16,478,564,2024-04-04,Supplier D
+PROD0379,Mystery Deluxe,Books,234.11,65,911,2024-10-18,Supplier D
+PROD0380,Plate Set Basic,Home & Kitchen,897.97,482,184,2024-12-13,Supplier C
+PROD0381,Yoga Mat Deluxe,Sports,952.78,216,5,2024-07-15,Supplier E
+PROD0382,Building Blocks Standard,Toys,415.64,324,182,2024-07-27,Supplier C
+PROD0383,Pan Elite,Home & Kitchen,592.49,91,531,2025-04-16,Supplier B
+PROD0384,Poetry Elite,Books,197.44,304,890,2024-04-16,Supplier E
+PROD0385,Laptop Pro,Electronics,625.18,252,206,2024-03-02,Supplier A
+PROD0386,Science Fiction Pro,Books,850.02,256,283,2025-04-21,Supplier D
+PROD0387,Basketball Deluxe,Sports,150.85,50,535,2024-05-03,Supplier A
+PROD0388,Tire Basic,Automotive,913.81,22,540,2024-12-01,Supplier E
+PROD0389,Science Fiction Premium,Books,485.09,49,264,2025-08-05,Supplier D
+PROD0390,Tablet Elite,Electronics,206.84,73,121,2024-02-05,Supplier D
+PROD0391,Poetry Pro,Books,213.69,237,345,2024-06-23,Supplier E
+PROD0392,Doll Standard,Toys,276.88,396,866,2024-08-26,Supplier C
+PROD0393,Biography Elite,Books,106.8,67,891,2025-07-06,Supplier A
+PROD0394,Moisturizer Standard,Beauty,146.62,164,33,2024-03-15,Supplier E
+PROD0395,Atlas Standard,Books,598.89,258,227,2024-05-23,Supplier C
+PROD0396,Kite Pro,Toys,988.48,338,176,2024-09-30,Supplier D
+PROD0397,Shorts Premium,Clothing,83.96,223,219,2025-05-19,Supplier C
+PROD0398,Nail Polish Premium,Beauty,362.62,211,890,2024-11-17,Supplier C
+PROD0399,Tennis Racket Standard,Sports,497.26,110,16,2024-06-26,Supplier B
+PROD0400,Shoes Standard,Clothing,101.47,411,166,2023-11-29,Supplier E
+PROD0401,Tennis Racket Deluxe,Sports,482.64,121,218,2024-11-11,Supplier B
+PROD0402,Helmet Standard,Sports,932.02,165,1,2023-12-25,Supplier A
+PROD0403,Keyboard Premium,Electronics,551.0,334,554,2024-07-07,Supplier A
+PROD0404,Stuffed Animal Pro,Toys,710.4,276,374,2024-07-14,Supplier E
+PROD0405,Toaster Elite,Home & Kitchen,206.22,59,499,2025-06-17,Supplier C
+PROD0406,Basketball Premium,Sports,823.62,109,567,2024-12-07,Supplier D
+PROD0407,Phone Mount Premium,Automotive,159.06,16,445,2025-10-16,Supplier C
+PROD0408,Play-Doh Standard,Toys,634.76,71,195,2025-08-27,Supplier A
+PROD0409,Charger Deluxe,Electronics,33.7,430,270,2025-07-24,Supplier D
+PROD0410,Water Bottle Standard,Sports,433.71,97,489,2025-06-06,Supplier E
+PROD0411,Gym Bag Standard,Sports,904.39,486,131,2024-03-13,Supplier A
+PROD0412,History Pro,Books,572.86,457,799,2024-09-01,Supplier A
+PROD0413,Lipstick Basic,Beauty,628.24,318,2,2024-04-11,Supplier A
+PROD0414,Fork Set Premium,Home & Kitchen,19.74,122,691,2025-06-16,Supplier C
+PROD0415,Wiper Blades Pro,Automotive,660.42,437,633,2024-01-31,Supplier D
+PROD0416,Helmet Premium,Sports,433.37,409,754,2025-01-08,Supplier E
+PROD0417,Science Fiction Elite,Books,344.72,327,367,2024-09-21,Supplier A
+PROD0418,Charger Deluxe,Electronics,232.78,215,187,2023-10-31,Supplier D
+PROD0419,Face Mask Elite,Beauty,924.84,115,546,2025-07-09,Supplier B
+PROD0420,Pot Deluxe,Home & Kitchen,77.46,198,135,2024-12-11,Supplier C
+PROD0421,Phone Mount Pro,Automotive,858.24,245,438,2024-01-25,Supplier D
+PROD0422,Pot Basic,Home & Kitchen,55.41,148,841,2024-10-03,Supplier B
+PROD0423,Ball Deluxe,Toys,323.23,188,792,2025-08-31,Supplier D
+PROD0424,Hat Premium,Clothing,523.58,338,280,2024-12-19,Supplier E
+PROD0425,History Pro,Books,253.87,175,929,2024-09-01,Supplier D
+PROD0426,Shorts Premium,Clothing,547.03,166,917,2024-08-06,Supplier B
+PROD0427,Football Standard,Sports,260.4,153,495,2024-12-11,Supplier D
+PROD0428,Basketball Standard,Sports,498.12,58,398,2024-04-26,Supplier D
+PROD0429,Monitor Premium,Electronics,469.34,100,720,2024-02-13,Supplier E
+PROD0430,Shampoo Deluxe,Beauty,115.98,312,38,2024-04-23,Supplier B
+PROD0431,Dictionary Deluxe,Books,856.18,176,337,2024-04-02,Supplier D
+PROD0432,Wiper Blades Standard,Automotive,874.42,67,400,2025-10-18,Supplier E
+PROD0433,Action Figure Standard,Toys,134.26,446,76,2024-11-06,Supplier D
+PROD0434,Air Filter Standard,Automotive,22.14,368,486,2025-01-02,Supplier D
+PROD0435,Car Cover Elite,Automotive,387.81,402,828,2024-05-28,Supplier E
+PROD0436,Air Filter Elite,Automotive,899.16,281,487,2025-07-04,Supplier A
+PROD0437,Monitor Premium,Electronics,175.33,436,77,2024-02-10,Supplier A
+PROD0438,Shorts Pro,Clothing,127.51,215,91,2024-10-10,Supplier A
+PROD0439,Shampoo Basic,Beauty,799.59,496,350,2024-10-26,Supplier C
+PROD0440,Dumbbell Basic,Sports,259.75,208,242,2025-07-26,Supplier C
+PROD0441,Shampoo Standard,Beauty,133.22,425,330,2024-10-26,Supplier E
+PROD0442,Biography Standard,Books,16.96,195,845,2025-08-25,Supplier E
+PROD0443,Shorts Elite,Clothing,22.01,112,507,2025-07-28,Supplier B
+PROD0444,Water Bottle Premium,Sports,302.68,465,341,2024-10-20,Supplier B
+PROD0445,Biography Basic,Books,908.82,152,119,2025-05-02,Supplier A
+PROD0446,Keyboard Pro,Electronics,858.38,292,951,2024-06-18,Supplier A
+PROD0447,Running Shoes Basic,Sports,108.72,22,838,2024-08-18,Supplier D
+PROD0448,Fiction Novel Deluxe,Books,691.58,369,634,2023-12-09,Supplier B
+PROD0449,Mystery Deluxe,Books,706.08,360,94,2024-05-30,Supplier C
+PROD0450,Puzzle Deluxe,Toys,130.11,458,478,2025-07-31,Supplier B
+PROD0451,Shampoo Premium,Beauty,860.67,11,385,2024-04-22,Supplier D
+PROD0452,Cup Standard,Home & Kitchen,482.26,424,334,2024-09-26,Supplier A
+PROD0453,Atlas Deluxe,Books,506.63,185,573,2025-01-15,Supplier D
+PROD0454,Science Fiction Premium,Books,238.89,383,305,2025-06-25,Supplier B
+PROD0455,Kite Deluxe,Toys,606.54,262,108,2024-09-01,Supplier B
+PROD0456,Water Bottle Premium,Sports,936.34,450,12,2024-02-26,Supplier E
+PROD0457,Headphones Standard,Electronics,637.2,310,810,2023-11-25,Supplier C
+PROD0458,Yoga Mat Deluxe,Sports,993.03,65,131,2024-09-27,Supplier D
+PROD0459,Hair Dryer Basic,Beauty,813.56,212,279,2024-04-12,Supplier C
+PROD0460,Microwave Pro,Home & Kitchen,705.63,81,326,2023-11-16,Supplier E
+PROD0461,T-Shirt Elite,Clothing,537.92,480,802,2025-03-25,Supplier C
+PROD0462,Kite Standard,Toys,968.78,19,340,2024-08-23,Supplier D
+PROD0463,Brake Pads Elite,Automotive,787.36,472,647,2025-08-07,Supplier B
+PROD0464,Cup Deluxe,Home & Kitchen,139.2,75,481,2025-02-12,Supplier B
+PROD0465,Speaker Basic,Electronics,842.37,182,590,2025-07-30,Supplier E
+PROD0466,Helmet Elite,Sports,446.8,162,475,2024-06-26,Supplier A
+PROD0467,Wiper Blades Basic,Automotive,393.59,322,155,2024-02-10,Supplier E
+PROD0468,Cup Premium,Home & Kitchen,965.03,273,554,2024-01-07,Supplier E
+PROD0469,Ball Elite,Toys,67.19,343,956,2024-03-26,Supplier B
+PROD0470,Stuffed Animal Basic,Toys,586.67,477,424,2025-06-19,Supplier B
+PROD0471,Phone Mount Elite,Automotive,770.12,354,665,2024-08-13,Supplier D
+PROD0472,Mystery Premium,Books,767.68,284,149,2024-09-23,Supplier C
+PROD0473,Stuffed Animal Deluxe,Toys,136.83,298,707,2024-12-06,Supplier D
+PROD0474,Dress Premium,Clothing,33.88,0,346,2025-06-22,Supplier C
+PROD0475,Coffee Maker Pro,Home & Kitchen,672.69,351,711,2023-10-30,Supplier E
+PROD0476,Face Mask Premium,Beauty,817.58,367,247,2024-05-10,Supplier C
+PROD0477,Air Filter Pro,Automotive,130.21,184,146,2024-02-26,Supplier D
+PROD0478,Blender Pro,Home & Kitchen,761.52,423,974,2025-05-25,Supplier D
+PROD0479,Lipstick Basic,Beauty,422.74,405,83,2024-11-10,Supplier C
+PROD0480,Fiction Novel Premium,Books,600.32,41,929,2024-10-11,Supplier D
+PROD0481,Coffee Maker Basic,Home & Kitchen,166.02,16,765,2025-01-28,Supplier B
+PROD0482,Building Blocks Deluxe,Toys,560.0,297,364,2024-09-16,Supplier B
+PROD0483,Jacket Elite,Clothing,238.67,137,443,2024-03-02,Supplier A
+PROD0484,Pot Elite,Home & Kitchen,287.96,167,210,2024-11-10,Supplier C
+PROD0485,Smartphone Premium,Electronics,94.87,301,538,2025-04-22,Supplier B
+PROD0486,Jacket Elite,Clothing,75.12,320,153,2024-10-06,Supplier B
+PROD0487,Tennis Racket Standard,Sports,11.95,455,463,2025-01-01,Supplier D
+PROD0488,Foundation Elite,Beauty,640.02,118,102,2024-03-06,Supplier C
+PROD0489,Cup Standard,Home & Kitchen,359.73,474,896,2025-09-02,Supplier D
+PROD0490,Poetry Deluxe,Books,805.41,462,44,2024-08-11,Supplier D
+PROD0491,Air Filter Deluxe,Automotive,291.05,463,545,2025-03-27,Supplier A
+PROD0492,Phone Mount Pro,Automotive,441.96,272,226,2025-09-16,Supplier D
+PROD0493,Foundation Deluxe,Beauty,105.53,48,126,2024-06-11,Supplier B
+PROD0494,Puzzle Pro,Toys,801.11,398,930,2025-06-27,Supplier A
+PROD0495,Blender Standard,Home & Kitchen,814.39,259,591,2024-10-05,Supplier A
+PROD0496,Board Game Elite,Toys,603.48,114,355,2025-04-20,Supplier B
+PROD0497,Yoga Mat Premium,Sports,773.66,315,31,2024-10-04,Supplier E
+PROD0498,Face Mask Basic,Beauty,132.24,225,486,2024-12-23,Supplier E
+PROD0499,Sunscreen Basic,Beauty,601.13,55,183,2024-04-09,Supplier D
+PROD0500,Hat Premium,Clothing,119.49,463,829,2025-08-26,Supplier C
+PROD0501,Yoga Mat Basic,Sports,679.7,354,597,2025-06-16,Supplier B
+PROD0502,Kite Basic,Toys,385.35,26,761,2025-09-22,Supplier C
+PROD0503,Oil Filter Deluxe,Automotive,836.62,13,390,2025-04-01,Supplier A
+PROD0504,Play-Doh Premium,Toys,831.13,175,514,2023-11-06,Supplier E
+PROD0505,Dictionary Standard,Books,168.53,105,435,2024-10-30,Supplier C
+PROD0506,Fork Set Premium,Home & Kitchen,888.53,295,230,2025-02-25,Supplier C
+PROD0507,Remote Car Standard,Toys,960.1,100,284,2025-08-31,Supplier B
+PROD0508,Biography Basic,Books,19.58,443,352,2023-12-16,Supplier E
+PROD0509,Basketball Standard,Sports,523.19,274,230,2023-11-04,Supplier E
+PROD0510,Self-Help Standard,Books,399.16,419,103,2024-02-16,Supplier A
+PROD0511,Yoga Mat Deluxe,Sports,976.57,216,309,2025-08-21,Supplier A
+PROD0512,Face Mask Pro,Beauty,361.04,435,995,2025-10-16,Supplier D
+PROD0513,Dumbbell Premium,Sports,408.95,195,239,2024-03-13,Supplier A
+PROD0514,Tennis Racket Elite,Sports,818.41,184,71,2024-11-04,Supplier B
+PROD0515,Basketball Deluxe,Sports,302.2,30,630,2024-11-15,Supplier E
+PROD0516,Poetry Deluxe,Books,968.34,55,359,2025-03-09,Supplier B
+PROD0517,Dictionary Deluxe,Books,19.86,294,769,2023-11-26,Supplier E
+PROD0518,Sweater Basic,Clothing,204.6,271,203,2025-10-07,Supplier E
+PROD0519,Pan Elite,Home & Kitchen,519.36,492,214,2025-06-03,Supplier C
+PROD0520,Pan Standard,Home & Kitchen,863.97,80,220,2024-02-10,Supplier B
+PROD0521,Jeans Standard,Clothing,506.45,338,696,2024-09-20,Supplier C
+PROD0522,T-Shirt Deluxe,Clothing,179.99,329,139,2025-09-10,Supplier E
+PROD0523,Spark Plug Premium,Automotive,975.82,36,378,2024-04-15,Supplier C
+PROD0524,Socks Premium,Clothing,731.92,109,558,2025-02-19,Supplier B
+PROD0525,Helmet Premium,Sports,472.1,37,600,2025-06-19,Supplier C
+PROD0526,Phone Mount Deluxe,Automotive,642.13,361,953,2025-01-04,Supplier A
+PROD0527,Car Cover Basic,Automotive,41.18,468,461,2024-05-02,Supplier C
+PROD0528,Science Fiction Elite,Books,520.68,13,112,2024-07-26,Supplier D
+PROD0529,Charger Elite,Electronics,149.81,113,952,2024-05-09,Supplier B
+PROD0530,Remote Car Pro,Toys,441.16,164,471,2025-05-02,Supplier E
+PROD0531,Nail Polish Premium,Beauty,178.75,33,756,2023-11-02,Supplier B
+PROD0532,Sweater Standard,Clothing,830.51,318,477,2025-03-17,Supplier C
+PROD0533,Sunscreen Basic,Beauty,757.02,198,466,2024-05-19,Supplier C
+PROD0534,Foundation Elite,Beauty,770.99,195,733,2025-08-05,Supplier B
+PROD0535,Action Figure Elite,Toys,695.44,325,652,2025-01-16,Supplier D
+PROD0536,Poetry Standard,Books,293.87,343,877,2025-07-22,Supplier B
+PROD0537,Nail Polish Basic,Beauty,621.78,444,786,2023-12-17,Supplier B
+PROD0538,Helmet Premium,Sports,480.95,288,588,2025-03-24,Supplier D
+PROD0539,Face Mask Premium,Beauty,952.98,84,998,2023-11-26,Supplier E
+PROD0540,Knife Set Pro,Home & Kitchen,834.24,475,454,2023-12-25,Supplier C
+PROD0541,Dictionary Standard,Books,508.06,329,493,2025-09-05,Supplier A
+PROD0542,Spark Plug Basic,Automotive,500.9,199,604,2025-04-02,Supplier A
+PROD0543,Stuffed Animal Pro,Toys,907.44,133,432,2025-03-20,Supplier E
+PROD0544,Jeans Basic,Clothing,467.97,83,252,2023-11-24,Supplier A
+PROD0545,Tire Deluxe,Automotive,77.0,215,782,2023-11-17,Supplier B
+PROD0546,T-Shirt Premium,Clothing,957.24,151,516,2024-07-14,Supplier D
+PROD0547,Pan Pro,Home & Kitchen,18.22,294,683,2025-02-03,Supplier C
+PROD0548,T-Shirt Premium,Clothing,919.16,420,902,2025-04-28,Supplier B
+PROD0549,Oil Filter Premium,Automotive,632.85,172,995,2024-11-06,Supplier C
+PROD0550,Floor Mats Basic,Automotive,274.99,168,189,2025-08-07,Supplier E
+PROD0551,Sunscreen Premium,Beauty,788.8,193,199,2024-11-13,Supplier D
+PROD0552,Perfume Deluxe,Beauty,89.79,29,97,2024-10-25,Supplier D
+PROD0553,Plate Set Premium,Home & Kitchen,96.22,239,165,2024-11-26,Supplier C
+PROD0554,Brake Pads Premium,Automotive,176.11,485,890,2025-04-11,Supplier B
+PROD0555,Biography Basic,Books,433.0,417,500,2025-05-29,Supplier A
+PROD0556,Sunscreen Basic,Beauty,296.56,263,268,2024-02-28,Supplier A
+PROD0557,Coffee Maker Standard,Home & Kitchen,103.97,97,971,2025-05-03,Supplier D
+PROD0558,Camera Premium,Electronics,273.59,158,532,2024-07-25,Supplier D
+PROD0559,Action Figure Standard,Toys,215.11,402,598,2025-08-08,Supplier E
+PROD0560,Water Bottle Basic,Sports,192.05,435,964,2024-05-07,Supplier A
+PROD0561,Pot Premium,Home & Kitchen,198.42,272,448,2024-12-30,Supplier E
+PROD0562,Poetry Elite,Books,286.29,27,664,2025-04-07,Supplier E
+PROD0563,Speaker Deluxe,Electronics,505.98,48,258,2024-03-11,Supplier B
+PROD0564,Tennis Racket Premium,Sports,623.54,495,493,2023-12-26,Supplier B
+PROD0565,Plate Set Elite,Home & Kitchen,185.1,312,289,2024-03-22,Supplier B
+PROD0566,Building Blocks Premium,Toys,630.87,466,893,2025-10-18,Supplier C
+PROD0567,Dumbbell Standard,Sports,627.6,415,361,2025-03-12,Supplier A
+PROD0568,Lipstick Standard,Beauty,548.3,445,506,2024-06-28,Supplier E
+PROD0569,Board Game Elite,Toys,798.61,165,510,2025-10-10,Supplier C
+PROD0570,Coat Pro,Clothing,162.64,442,402,2025-03-17,Supplier C
+PROD0571,Cup Premium,Home & Kitchen,119.68,69,548,2025-02-28,Supplier C
+PROD0572,Dress Premium,Clothing,711.67,127,190,2024-03-20,Supplier A
+PROD0573,Toaster Deluxe,Home & Kitchen,924.93,262,838,2025-01-31,Supplier D
+PROD0574,Phone Mount Deluxe,Automotive,640.02,340,533,2024-08-29,Supplier B
+PROD0575,Speaker Pro,Electronics,662.74,298,323,2024-05-04,Supplier D
+PROD0576,Mouse Deluxe,Electronics,931.62,383,296,2025-09-03,Supplier A
+PROD0577,Tennis Racket Premium,Sports,726.59,191,826,2025-05-05,Supplier A
+PROD0578,Coffee Maker Elite,Home & Kitchen,486.05,426,193,2024-09-24,Supplier C
+PROD0579,Sweater Pro,Clothing,107.72,498,261,2025-02-14,Supplier C
+PROD0580,Play-Doh Deluxe,Toys,341.07,413,945,2024-03-17,Supplier A
+PROD0581,Mouse Standard,Electronics,177.82,95,197,2024-03-12,Supplier D
+PROD0582,Cup Pro,Home & Kitchen,745.25,342,203,2025-03-14,Supplier C
+PROD0583,Socks Pro,Clothing,43.08,71,614,2025-10-25,Supplier B
+PROD0584,Self-Help Basic,Books,504.56,156,733,2024-07-09,Supplier D
+PROD0585,Water Bottle Pro,Sports,358.65,60,813,2024-09-05,Supplier D
+PROD0586,Kite Deluxe,Toys,731.17,487,180,2024-02-21,Supplier D
+PROD0587,Doll Standard,Toys,504.74,466,91,2024-09-16,Supplier B
+PROD0588,Knife Set Pro,Home & Kitchen,86.62,40,705,2024-02-25,Supplier E
+PROD0589,Yoga Mat Elite,Sports,896.13,274,688,2024-01-05,Supplier A
+PROD0590,Brake Pads Standard,Automotive,953.44,97,480,2024-08-17,Supplier C
+PROD0591,Dictionary Standard,Books,106.27,161,27,2024-10-25,Supplier A
+PROD0592,Foundation Premium,Beauty,961.88,300,328,2025-03-28,Supplier C
+PROD0593,Blender Basic,Home & Kitchen,537.18,500,659,2024-02-04,Supplier A
+PROD0594,Pot Deluxe,Home & Kitchen,973.21,49,705,2025-04-12,Supplier D
+PROD0595,Smartphone Standard,Electronics,226.49,24,1,2025-08-21,Supplier E
+PROD0596,Headphones Deluxe,Electronics,439.65,372,776,2024-01-23,Supplier C
+PROD0597,Hair Dryer Basic,Beauty,614.15,252,8,2025-04-20,Supplier A
+PROD0598,Mystery Standard,Books,213.78,264,657,2025-02-22,Supplier C
+PROD0599,Eye Shadow Standard,Beauty,754.82,231,626,2024-09-27,Supplier A
+PROD0600,Floor Mats Premium,Automotive,52.24,222,772,2024-10-08,Supplier A
+PROD0601,Camera Basic,Electronics,250.29,320,170,2024-05-01,Supplier E
+PROD0602,Eye Shadow Premium,Beauty,710.05,484,714,2024-08-28,Supplier A
+PROD0603,Face Mask Elite,Beauty,365.47,459,263,2024-08-07,Supplier C
+PROD0604,Lipstick Standard,Beauty,545.34,392,28,2024-03-27,Supplier B
+PROD0605,Running Shoes Premium,Sports,111.35,346,117,2024-10-27,Supplier B
+PROD0606,Microwave Pro,Home & Kitchen,679.81,111,854,2024-02-15,Supplier A
+PROD0607,History Basic,Books,825.92,163,868,2025-04-14,Supplier E
+PROD0608,Dress Basic,Clothing,868.9,181,940,2025-10-23,Supplier B
+PROD0609,Mystery Pro,Books,44.0,202,268,2024-01-10,Supplier A
+PROD0610,Jeans Standard,Clothing,845.18,409,386,2024-01-22,Supplier E
+PROD0611,Toaster Pro,Home & Kitchen,559.83,70,746,2025-03-15,Supplier D
+PROD0612,Car Cover Elite,Automotive,606.43,24,738,2025-01-22,Supplier D
+PROD0613,Knife Set Deluxe,Home & Kitchen,645.45,172,158,2024-11-18,Supplier D
+PROD0614,Puzzle Pro,Toys,644.58,404,4,2025-02-17,Supplier B
+PROD0615,Biography Elite,Books,872.95,199,622,2024-03-21,Supplier B
+PROD0616,Oil Filter Premium,Automotive,227.67,427,966,2024-02-05,Supplier B
+PROD0617,Mouse Elite,Electronics,860.6,52,752,2025-06-13,Supplier A
+PROD0618,Football Pro,Sports,298.06,53,981,2024-03-04,Supplier A
+PROD0619,Cookbook Standard,Books,362.93,77,692,2025-04-26,Supplier B
+PROD0620,Jeans Standard,Clothing,60.44,254,750,2024-04-17,Supplier D
+PROD0621,Oil Filter Elite,Automotive,914.11,113,345,2025-04-13,Supplier D
+PROD0622,Building Blocks Elite,Toys,259.4,209,400,2024-11-21,Supplier E
+PROD0623,Eye Shadow Pro,Beauty,586.18,258,336,2025-03-05,Supplier C
+PROD0624,Laptop Deluxe,Electronics,258.21,396,747,2024-12-02,Supplier E
+PROD0625,Wiper Blades Deluxe,Automotive,615.52,238,808,2023-11-13,Supplier C
+PROD0626,Brake Pads Premium,Automotive,748.53,166,388,2024-10-10,Supplier A
+PROD0627,Dumbbell Standard,Sports,381.52,464,829,2024-04-02,Supplier C
+PROD0628,Plate Set Standard,Home & Kitchen,449.82,191,437,2025-04-22,Supplier B
+PROD0629,Fork Set Basic,Home & Kitchen,933.83,412,94,2025-07-11,Supplier C
+PROD0630,Science Fiction Standard,Books,708.32,180,347,2024-10-14,Supplier B
+PROD0631,Ball Standard,Toys,613.06,187,896,2025-08-15,Supplier D
+PROD0632,T-Shirt Pro,Clothing,471.0,360,990,2024-02-24,Supplier D
+PROD0633,Pot Premium,Home & Kitchen,906.75,498,209,2024-11-03,Supplier A
+PROD0634,Monitor Basic,Electronics,48.04,113,706,2025-02-02,Supplier C
+PROD0635,Remote Car Deluxe,Toys,865.42,193,655,2024-05-22,Supplier C
+PROD0636,Socks Pro,Clothing,668.47,396,678,2025-08-13,Supplier E
+PROD0637,Helmet Elite,Sports,957.61,471,840,2025-10-08,Supplier C
+PROD0638,Cookbook Elite,Books,747.29,297,171,2023-12-01,Supplier D
+PROD0639,Fork Set Elite,Home & Kitchen,468.51,237,526,2024-02-18,Supplier E
+PROD0640,Face Mask Deluxe,Beauty,241.65,106,645,2025-07-04,Supplier C
+PROD0641,Basketball Premium,Sports,21.66,165,171,2025-05-01,Supplier E
+PROD0642,Moisturizer Elite,Beauty,410.95,392,421,2024-07-11,Supplier B
+PROD0643,Floor Mats Deluxe,Automotive,216.82,433,170,2024-01-01,Supplier D
+PROD0644,Coffee Maker Elite,Home & Kitchen,24.41,243,41,2024-01-14,Supplier C
+PROD0645,Battery Basic,Automotive,790.68,473,137,2023-11-26,Supplier B
+PROD0646,Dumbbell Basic,Sports,411.07,8,405,2024-07-20,Supplier D
+PROD0647,Coffee Maker Pro,Home & Kitchen,671.56,326,992,2025-02-21,Supplier C
+PROD0648,Battery Pro,Automotive,706.86,20,795,2024-01-26,Supplier B
+PROD0649,Puzzle Elite,Toys,59.71,38,878,2025-05-03,Supplier B
+PROD0650,Basketball Standard,Sports,417.61,412,171,2024-10-31,Supplier D
+PROD0651,Keyboard Pro,Electronics,274.95,226,128,2024-09-22,Supplier C
+PROD0652,Plate Set Premium,Home & Kitchen,715.03,160,559,2024-11-21,Supplier D
+PROD0653,Poetry Elite,Books,677.09,425,99,2023-12-14,Supplier A
+PROD0654,Jeans Standard,Clothing,594.34,208,474,2024-06-10,Supplier A
+PROD0655,Yoga Mat Pro,Sports,233.07,473,363,2025-05-04,Supplier C
+PROD0656,Doll Basic,Toys,80.41,17,158,2025-03-26,Supplier C
+PROD0657,Foundation Basic,Beauty,895.54,17,472,2025-06-17,Supplier D
+PROD0658,Eye Shadow Deluxe,Beauty,643.67,343,184,2023-11-16,Supplier D
+PROD0659,Camera Basic,Electronics,585.87,264,170,2025-08-25,Supplier D
+PROD0660,Gym Bag Elite,Sports,153.44,290,573,2025-06-04,Supplier D
+PROD0661,History Basic,Books,474.5,447,375,2025-04-15,Supplier A
+PROD0662,Plate Set Basic,Home & Kitchen,846.08,236,445,2024-05-16,Supplier C
+PROD0663,Air Filter Pro,Automotive,721.98,121,69,2024-08-09,Supplier E
+PROD0664,Toaster Basic,Home & Kitchen,293.57,13,722,2024-12-07,Supplier D
+PROD0665,Pan Pro,Home & Kitchen,803.22,409,812,2025-09-25,Supplier E
+PROD0666,Kite Standard,Toys,555.41,31,4,2025-10-26,Supplier E
+PROD0667,Perfume Pro,Beauty,375.81,419,426,2024-09-21,Supplier A
+PROD0668,Atlas Premium,Books,213.49,353,613,2024-11-11,Supplier A
+PROD0669,Doll Pro,Toys,410.12,164,632,2024-10-30,Supplier B
+PROD0670,Camera Elite,Electronics,173.77,395,931,2024-11-18,Supplier C
+PROD0671,Keyboard Basic,Electronics,131.57,474,910,2025-02-19,Supplier D
+PROD0672,Blender Elite,Home & Kitchen,584.51,390,475,2024-08-04,Supplier C
+PROD0673,Shorts Premium,Clothing,609.23,170,102,2025-09-04,Supplier B
+PROD0674,T-Shirt Pro,Clothing,932.77,412,742,2024-08-16,Supplier B
+PROD0675,Spark Plug Pro,Automotive,671.72,436,999,2025-10-16,Supplier D
+PROD0676,Puzzle Pro,Toys,230.69,191,233,2024-08-21,Supplier C
+PROD0677,History Elite,Books,86.76,95,824,2024-03-10,Supplier B
+PROD0678,History Standard,Books,275.34,40,852,2024-04-01,Supplier D
+PROD0679,Building Blocks Standard,Toys,292.72,310,580,2025-01-17,Supplier C
+PROD0680,Spark Plug Standard,Automotive,723.9,460,265,2024-02-05,Supplier E
+PROD0681,Pot Premium,Home & Kitchen,312.75,186,969,2025-09-26,Supplier C
+PROD0682,Atlas Standard,Books,929.09,194,969,2024-02-16,Supplier B
+PROD0683,Cookbook Pro,Books,8.1,359,830,2024-05-10,Supplier C
+PROD0684,Car Cover Pro,Automotive,307.61,98,183,2024-02-09,Supplier B
+PROD0685,Jacket Basic,Clothing,375.51,447,742,2025-02-01,Supplier D
+PROD0686,Wiper Blades Standard,Automotive,121.01,347,853,2024-10-22,Supplier C
+PROD0687,Hair Dryer Premium,Beauty,598.84,15,23,2025-01-17,Supplier A
+PROD0688,Floor Mats Pro,Automotive,623.29,288,319,2025-07-30,Supplier E
+PROD0689,Wiper Blades Standard,Automotive,822.5,457,804,2024-06-16,Supplier A
+PROD0690,Eye Shadow Basic,Beauty,19.91,28,34,2024-02-01,Supplier E
+PROD0691,Fiction Novel Deluxe,Books,159.28,197,550,2025-06-30,Supplier D
+PROD0692,Hair Dryer Premium,Beauty,344.62,288,390,2024-02-09,Supplier A
+PROD0693,Yoga Mat Basic,Sports,720.06,359,113,2024-11-27,Supplier E
+PROD0694,Pot Elite,Home & Kitchen,77.75,91,882,2025-08-19,Supplier A
+PROD0695,Plate Set Deluxe,Home & Kitchen,236.9,233,198,2023-12-05,Supplier A
+PROD0696,Dumbbell Deluxe,Sports,283.56,32,961,2025-03-05,Supplier E
+PROD0697,Building Blocks Deluxe,Toys,227.47,285,260,2025-10-19,Supplier E
+PROD0698,Sweater Premium,Clothing,674.63,72,993,2025-07-01,Supplier A
+PROD0699,Foundation Standard,Beauty,681.48,83,503,2025-02-20,Supplier A
+PROD0700,Coat Deluxe,Clothing,655.16,390,747,2024-01-20,Supplier B
+PROD0701,Foundation Elite,Beauty,602.43,139,301,2023-11-25,Supplier D
+PROD0702,Sweater Premium,Clothing,78.99,42,43,2024-05-22,Supplier C
+PROD0703,Dress Standard,Clothing,790.05,148,522,2024-08-21,Supplier C
+PROD0704,Science Fiction Pro,Books,836.55,10,77,2024-11-04,Supplier C
+PROD0705,Jeans Premium,Clothing,538.85,115,153,2025-02-07,Supplier C
+PROD0706,Shorts Premium,Clothing,678.56,276,752,2023-11-25,Supplier D
+PROD0707,Helmet Deluxe,Sports,753.4,281,880,2024-04-01,Supplier D
+PROD0708,Board Game Deluxe,Toys,547.76,33,70,2025-10-15,Supplier D
+PROD0709,Face Mask Elite,Beauty,303.18,110,239,2025-08-28,Supplier E
+PROD0710,Kite Standard,Toys,925.02,14,125,2025-09-20,Supplier E
+PROD0711,Air Filter Basic,Automotive,213.18,132,570,2025-06-13,Supplier C
+PROD0712,Oil Filter Standard,Automotive,586.84,37,538,2024-07-28,Supplier D
+PROD0713,Bicycle Pro,Sports,154.65,66,616,2024-01-21,Supplier C
+PROD0714,Biography Pro,Books,459.9,171,680,2025-10-13,Supplier B
+PROD0715,Remote Car Deluxe,Toys,351.22,186,800,2024-10-05,Supplier E
+PROD0716,Battery Standard,Automotive,900.79,361,883,2025-08-22,Supplier C
+PROD0717,Yoga Mat Deluxe,Sports,918.24,363,750,2025-05-13,Supplier E
+PROD0718,Foundation Premium,Beauty,292.3,437,682,2025-02-07,Supplier B
+PROD0719,Play-Doh Pro,Toys,785.84,467,1000,2025-01-23,Supplier C
+PROD0720,Ball Standard,Toys,685.11,473,97,2025-05-15,Supplier D
+PROD0721,Remote Car Premium,Toys,492.7,126,180,2023-11-26,Supplier D
+PROD0722,Smartphone Standard,Electronics,426.37,83,878,2024-04-12,Supplier D
+PROD0723,Biography Deluxe,Books,594.44,294,126,2024-05-26,Supplier E
+PROD0724,Oil Filter Deluxe,Automotive,673.56,476,876,2025-07-03,Supplier A
+PROD0725,Spark Plug Standard,Automotive,66.53,173,305,2024-06-09,Supplier C
+PROD0726,Moisturizer Pro,Beauty,489.06,269,499,2023-12-27,Supplier C
+PROD0727,Play-Doh Pro,Toys,778.1,427,53,2024-09-20,Supplier A
+PROD0728,Biography Elite,Books,66.7,236,321,2024-11-28,Supplier D
+PROD0729,Brake Pads Premium,Automotive,488.77,91,192,2024-11-15,Supplier B
+PROD0730,Keyboard Elite,Electronics,100.39,128,770,2025-01-31,Supplier B
+PROD0731,Phone Mount Pro,Automotive,256.48,331,762,2025-07-26,Supplier C
+PROD0732,Tire Pro,Automotive,966.56,397,709,2025-04-02,Supplier C
+PROD0733,Face Mask Premium,Beauty,185.43,452,140,2024-08-02,Supplier D
+PROD0734,Poetry Pro,Books,34.78,258,684,2025-02-06,Supplier B
+PROD0735,Building Blocks Deluxe,Toys,741.52,393,527,2025-02-19,Supplier C
+PROD0736,Kite Deluxe,Toys,356.64,85,435,2025-01-29,Supplier D
+PROD0737,Moisturizer Deluxe,Beauty,515.39,315,698,2025-06-28,Supplier C
+PROD0738,Camera Deluxe,Electronics,134.14,368,211,2024-04-27,Supplier A
+PROD0739,Dress Elite,Clothing,264.65,319,592,2025-07-28,Supplier B
+PROD0740,Oil Filter Basic,Automotive,111.25,295,792,2024-08-13,Supplier E
+PROD0741,Gym Bag Standard,Sports,345.65,137,316,2025-05-17,Supplier E
+PROD0742,Hat Deluxe,Clothing,185.5,108,434,2025-05-02,Supplier E
+PROD0743,Pan Basic,Home & Kitchen,12.59,254,9,2024-06-16,Supplier D
+PROD0744,Coat Pro,Clothing,763.37,269,263,2024-04-13,Supplier E
+PROD0745,Dictionary Elite,Books,624.93,316,59,2024-11-01,Supplier B
+PROD0746,Remote Car Basic,Toys,223.08,275,792,2025-04-30,Supplier D
+PROD0747,Atlas Standard,Books,144.62,389,117,2025-02-16,Supplier C
+PROD0748,Tire Elite,Automotive,269.51,87,286,2025-10-14,Supplier E
+PROD0749,Foundation Pro,Beauty,314.08,250,862,2025-07-23,Supplier D
+PROD0750,Yoga Mat Pro,Sports,465.78,216,758,2025-04-16,Supplier A
+PROD0751,Monitor Pro,Electronics,775.84,262,964,2025-02-28,Supplier B
+PROD0752,Tablet Standard,Electronics,170.5,491,193,2023-12-22,Supplier B
+PROD0753,Camera Premium,Electronics,53.39,209,668,2025-06-03,Supplier C
+PROD0754,Keyboard Elite,Electronics,906.98,305,848,2024-08-12,Supplier B
+PROD0755,Spark Plug Premium,Automotive,156.73,463,297,2024-06-18,Supplier E
+PROD0756,Nail Polish Elite,Beauty,282.85,493,429,2024-12-26,Supplier E
+PROD0757,Keyboard Pro,Electronics,937.96,499,888,2024-07-05,Supplier C
+PROD0758,Pot Deluxe,Home & Kitchen,928.02,396,64,2025-03-09,Supplier A
+PROD0759,Speaker Basic,Electronics,318.02,389,440,2024-08-08,Supplier E
+PROD0760,Kite Elite,Toys,399.28,380,178,2024-07-16,Supplier E
+PROD0761,Tennis Racket Basic,Sports,47.1,232,834,2024-07-28,Supplier B
+PROD0762,Floor Mats Standard,Automotive,969.3,371,794,2023-12-28,Supplier C
+PROD0763,Battery Basic,Automotive,383.34,368,9,2024-02-12,Supplier A
+PROD0764,Toaster Deluxe,Home & Kitchen,526.12,178,838,2025-07-20,Supplier A
+PROD0765,Socks Elite,Clothing,248.7,306,412,2025-02-21,Supplier D
+PROD0766,Shoes Pro,Clothing,971.01,133,80,2024-03-03,Supplier E
+PROD0767,Sunscreen Basic,Beauty,154.15,385,517,2025-07-06,Supplier B
+PROD0768,Face Mask Deluxe,Beauty,745.76,400,337,2025-01-02,Supplier D
+PROD0769,Jacket Basic,Clothing,813.71,20,652,2025-01-03,Supplier E
+PROD0770,Helmet Standard,Sports,870.1,491,141,2024-11-30,Supplier C
+PROD0771,History Elite,Books,494.52,285,496,2024-08-27,Supplier A
+PROD0772,Jacket Pro,Clothing,458.56,278,595,2024-12-14,Supplier D
+PROD0773,Hair Dryer Elite,Beauty,172.54,299,33,2024-09-15,Supplier D
+PROD0774,Air Filter Premium,Automotive,910.15,40,724,2024-08-08,Supplier D
+PROD0775,Tennis Racket Elite,Sports,173.93,419,138,2025-04-08,Supplier B
+PROD0776,Fork Set Basic,Home & Kitchen,238.65,312,252,2023-12-13,Supplier E
+PROD0777,Stuffed Animal Deluxe,Toys,192.62,42,625,2025-09-24,Supplier B
+PROD0778,Helmet Basic,Sports,427.21,443,728,2024-05-21,Supplier C
+PROD0779,Stuffed Animal Elite,Toys,871.39,432,362,2025-10-22,Supplier E
+PROD0780,Mouse Premium,Electronics,717.01,5,925,2025-09-10,Supplier D
+PROD0781,Pot Premium,Home & Kitchen,871.52,421,345,2024-06-17,Supplier D
+PROD0782,Dumbbell Standard,Sports,566.32,65,357,2024-05-05,Supplier C
+PROD0783,Puzzle Basic,Toys,962.05,123,505,2025-05-25,Supplier E
+PROD0784,Biography Standard,Books,876.95,405,337,2025-09-06,Supplier B
+PROD0785,Battery Pro,Automotive,811.13,119,525,2025-06-24,Supplier B
+PROD0786,Ball Premium,Toys,796.94,76,296,2025-09-19,Supplier B
+PROD0787,Lipstick Deluxe,Beauty,850.27,69,318,2025-02-11,Supplier C
+PROD0788,Monitor Standard,Electronics,332.22,456,99,2025-05-21,Supplier D
+PROD0789,Gym Bag Deluxe,Sports,270.65,237,203,2025-09-29,Supplier A
+PROD0790,Mystery Deluxe,Books,574.16,447,614,2023-12-24,Supplier C
+PROD0791,Plate Set Deluxe,Home & Kitchen,272.51,496,188,2025-03-28,Supplier C
+PROD0792,Football Elite,Sports,898.71,85,395,2024-12-06,Supplier C
+PROD0793,Poetry Standard,Books,18.39,416,116,2024-10-20,Supplier B
+PROD0794,Shoes Premium,Clothing,337.75,62,495,2025-03-24,Supplier A
+PROD0795,Toaster Pro,Home & Kitchen,658.69,370,799,2025-04-13,Supplier C
+PROD0796,Foundation Basic,Beauty,151.75,65,400,2024-07-13,Supplier C
+PROD0797,Blender Standard,Home & Kitchen,310.48,329,124,2023-12-14,Supplier B
+PROD0798,Action Figure Standard,Toys,944.11,318,604,2025-08-10,Supplier E
+PROD0799,Floor Mats Pro,Automotive,783.16,353,417,2025-09-21,Supplier E
+PROD0800,Football Pro,Sports,404.81,321,644,2025-05-12,Supplier A
+PROD0801,Tire Standard,Automotive,11.12,221,576,2024-08-14,Supplier E
+PROD0802,Battery Elite,Automotive,120.61,213,110,2024-05-02,Supplier E
+PROD0803,Fiction Novel Premium,Books,496.17,397,158,2025-06-15,Supplier A
+PROD0804,Fiction Novel Deluxe,Books,604.43,151,293,2025-01-18,Supplier D
+PROD0805,Cookbook Deluxe,Books,619.55,359,259,2025-08-18,Supplier E
+PROD0806,Speaker Basic,Electronics,997.49,261,164,2025-07-07,Supplier C
+PROD0807,Helmet Premium,Sports,657.94,288,1000,2025-10-02,Supplier A
+PROD0808,Foundation Pro,Beauty,184.95,433,438,2024-05-05,Supplier A
+PROD0809,Dumbbell Standard,Sports,773.7,29,420,2024-01-09,Supplier B
+PROD0810,Kite Elite,Toys,247.64,52,85,2025-05-18,Supplier D
+PROD0811,Face Mask Deluxe,Beauty,770.19,425,546,2024-06-24,Supplier C
+PROD0812,Jacket Standard,Clothing,935.98,136,629,2024-04-01,Supplier A
+PROD0813,Tablet Premium,Electronics,106.46,243,275,2024-05-28,Supplier A
+PROD0814,Tablet Standard,Electronics,239.57,190,247,2024-01-16,Supplier B
+PROD0815,Headphones Pro,Electronics,927.81,136,773,2024-10-14,Supplier A
+PROD0816,Tennis Racket Basic,Sports,971.07,83,231,2025-04-15,Supplier C
+PROD0817,Atlas Premium,Books,673.18,3,382,2025-10-11,Supplier D
+PROD0818,Phone Mount Elite,Automotive,989.36,185,545,2025-09-28,Supplier A
+PROD0819,Coat Deluxe,Clothing,273.32,48,921,2023-12-06,Supplier D
+PROD0820,Toaster Standard,Home & Kitchen,175.22,420,148,2024-02-16,Supplier E
+PROD0821,Car Cover Pro,Automotive,613.19,371,369,2024-11-07,Supplier D
+PROD0822,Phone Mount Premium,Automotive,763.39,18,117,2024-02-23,Supplier E
+PROD0823,Battery Deluxe,Automotive,910.76,351,648,2025-02-08,Supplier D
+PROD0824,Dumbbell Standard,Sports,877.62,157,423,2024-01-13,Supplier E
+PROD0825,Shoes Basic,Clothing,44.66,93,504,2024-05-15,Supplier E
+PROD0826,Sweater Elite,Clothing,105.28,312,892,2024-08-10,Supplier C
+PROD0827,Speaker Basic,Electronics,905.74,379,369,2024-03-12,Supplier A
+PROD0828,T-Shirt Elite,Clothing,536.28,135,319,2024-06-06,Supplier C
+PROD0829,Board Game Deluxe,Toys,538.1,317,347,2025-08-21,Supplier C
+PROD0830,Play-Doh Deluxe,Toys,205.61,104,964,2024-12-09,Supplier E
+PROD0831,Sunscreen Deluxe,Beauty,879.29,424,959,2025-03-09,Supplier A
+PROD0832,Hat Deluxe,Clothing,881.82,134,441,2025-05-28,Supplier D
+PROD0833,Kite Premium,Toys,394.0,462,796,2025-03-05,Supplier B
+PROD0834,Sweater Elite,Clothing,996.7,47,545,2024-07-20,Supplier C
+PROD0835,Floor Mats Pro,Automotive,970.75,91,881,2023-11-16,Supplier E
+PROD0836,Toaster Premium,Home & Kitchen,744.63,144,730,2024-09-30,Supplier A
+PROD0837,Remote Car Pro,Toys,95.73,187,467,2024-11-12,Supplier C
+PROD0838,Gym Bag Basic,Sports,700.96,1,445,2024-08-08,Supplier A
+PROD0839,Oil Filter Basic,Automotive,164.17,364,292,2024-11-17,Supplier E
+PROD0840,Camera Elite,Electronics,868.82,288,562,2024-01-23,Supplier D
+PROD0841,Dumbbell Premium,Sports,256.72,229,566,2024-06-08,Supplier A
+PROD0842,Charger Elite,Electronics,758.3,29,326,2024-05-09,Supplier B
+PROD0843,Camera Pro,Electronics,676.07,451,318,2023-11-06,Supplier D
+PROD0844,Pan Pro,Home & Kitchen,256.82,273,759,2025-04-24,Supplier A
+PROD0845,Perfume Pro,Beauty,107.78,427,495,2025-03-10,Supplier D
+PROD0846,Car Cover Premium,Automotive,394.93,21,662,2025-01-06,Supplier E
+PROD0847,Bicycle Deluxe,Sports,435.71,108,104,2024-01-31,Supplier C
+PROD0848,Microwave Elite,Home & Kitchen,796.23,288,550,2024-08-29,Supplier E
+PROD0849,Microwave Deluxe,Home & Kitchen,494.65,462,629,2024-01-15,Supplier A
+PROD0850,Eye Shadow Elite,Beauty,351.66,64,180,2025-02-06,Supplier C
+PROD0851,Floor Mats Standard,Automotive,77.4,211,860,2025-07-09,Supplier D
+PROD0852,Sweater Elite,Clothing,20.43,75,314,2024-07-19,Supplier E
+PROD0853,Atlas Basic,Books,653.24,148,788,2024-02-27,Supplier E
+PROD0854,Perfume Pro,Beauty,162.93,438,80,2024-02-26,Supplier A
+PROD0855,Keyboard Premium,Electronics,175.97,182,970,2023-12-06,Supplier E
+PROD0856,Puzzle Pro,Toys,133.44,376,284,2024-09-28,Supplier E
+PROD0857,Helmet Deluxe,Sports,237.51,392,925,2024-03-12,Supplier D
+PROD0858,Cookbook Basic,Books,786.38,169,879,2023-11-24,Supplier E
+PROD0859,Cookbook Elite,Books,864.63,262,710,2024-04-24,Supplier D
+PROD0860,Bicycle Premium,Sports,421.3,371,51,2024-01-21,Supplier D
+PROD0861,Plate Set Standard,Home & Kitchen,905.84,439,992,2024-02-04,Supplier B
+PROD0862,T-Shirt Pro,Clothing,504.67,105,666,2025-08-17,Supplier E
+PROD0863,Self-Help Pro,Books,542.17,3,713,2025-08-18,Supplier B
+PROD0864,Tire Basic,Automotive,302.58,251,276,2024-08-23,Supplier A
+PROD0865,Brake Pads Standard,Automotive,629.06,320,90,2025-08-23,Supplier A
+PROD0866,Sweater Standard,Clothing,656.81,291,249,2024-02-05,Supplier D
+PROD0867,Wiper Blades Deluxe,Automotive,179.8,109,600,2024-12-28,Supplier D
+PROD0868,Car Cover Basic,Automotive,346.79,110,422,2024-02-19,Supplier D
+PROD0869,Tire Elite,Automotive,556.86,74,846,2024-10-25,Supplier A
+PROD0870,Helmet Premium,Sports,685.04,317,659,2024-07-10,Supplier C
+PROD0871,Jeans Deluxe,Clothing,307.61,225,11,2024-12-15,Supplier B
+PROD0872,Perfume Pro,Beauty,74.33,398,19,2025-07-26,Supplier C
+PROD0873,Tennis Racket Premium,Sports,567.69,268,309,2024-01-27,Supplier A
+PROD0874,Plate Set Pro,Home & Kitchen,514.23,114,265,2023-12-26,Supplier E
+PROD0875,Brake Pads Pro,Automotive,123.97,75,5,2025-04-25,Supplier A
+PROD0876,Hair Dryer Standard,Beauty,621.96,408,903,2024-07-18,Supplier B
+PROD0877,Microwave Pro,Home & Kitchen,907.51,50,270,2023-12-21,Supplier C
+PROD0878,Sunscreen Pro,Beauty,694.7,437,581,2025-06-12,Supplier E
+PROD0879,Perfume Pro,Beauty,378.92,362,590,2024-05-28,Supplier D
+PROD0880,Action Figure Pro,Toys,97.2,404,543,2024-10-02,Supplier A
+PROD0881,Bicycle Pro,Sports,507.74,60,526,2025-08-24,Supplier B
+PROD0882,Bicycle Deluxe,Sports,81.45,84,183,2024-02-06,Supplier A
+PROD0883,Helmet Elite,Sports,6.49,32,441,2025-10-10,Supplier E
+PROD0884,Poetry Basic,Books,763.22,51,820,2024-11-17,Supplier D
+PROD0885,Speaker Basic,Electronics,402.47,304,989,2025-08-04,Supplier C
+PROD0886,Perfume Basic,Beauty,609.02,144,209,2025-07-20,Supplier E
+PROD0887,Shoes Standard,Clothing,154.84,381,252,2024-02-24,Supplier D
+PROD0888,Helmet Elite,Sports,144.51,411,225,2024-12-07,Supplier B
+PROD0889,Shampoo Deluxe,Beauty,236.21,144,751,2023-11-10,Supplier B
+PROD0890,Socks Pro,Clothing,793.16,303,405,2024-08-17,Supplier B
+PROD0891,Shorts Basic,Clothing,402.25,224,906,2025-04-24,Supplier E
+PROD0892,Jacket Deluxe,Clothing,745.27,420,452,2024-10-19,Supplier D
+PROD0893,Tire Standard,Automotive,531.67,134,338,2023-12-19,Supplier C
+PROD0894,Face Mask Premium,Beauty,74.7,79,121,2025-04-19,Supplier D
+PROD0895,Hair Dryer Basic,Beauty,836.67,90,820,2025-06-22,Supplier A
+PROD0896,Mystery Premium,Books,215.06,388,419,2025-09-13,Supplier E
+PROD0897,Wiper Blades Premium,Automotive,452.88,235,878,2025-10-18,Supplier D
+PROD0898,Atlas Pro,Books,112.39,389,338,2025-01-28,Supplier B
+PROD0899,Puzzle Pro,Toys,281.03,158,731,2024-10-12,Supplier C
+PROD0900,Sunscreen Basic,Beauty,184.12,442,177,2025-08-28,Supplier A
+PROD0901,Oil Filter Deluxe,Automotive,635.2,484,930,2023-11-18,Supplier E
+PROD0902,Ball Standard,Toys,682.68,60,834,2024-12-16,Supplier A
+PROD0903,Mouse Premium,Electronics,112.18,382,114,2024-11-14,Supplier B
+PROD0904,Keyboard Standard,Electronics,257.88,251,484,2024-05-19,Supplier E
+PROD0905,Moisturizer Deluxe,Beauty,320.74,425,613,2024-11-25,Supplier C
+PROD0906,Hair Dryer Deluxe,Beauty,29.38,492,783,2024-11-27,Supplier A
+PROD0907,Perfume Basic,Beauty,455.28,442,566,2024-07-23,Supplier D
+PROD0908,Dumbbell Deluxe,Sports,210.2,287,956,2025-03-07,Supplier A
+PROD0909,Atlas Basic,Books,782.96,191,853,2024-07-13,Supplier B
+PROD0910,Headphones Deluxe,Electronics,307.57,147,16,2024-12-22,Supplier E
+PROD0911,Speaker Pro,Electronics,119.98,381,546,2024-02-01,Supplier E
+PROD0912,Pan Deluxe,Home & Kitchen,770.82,335,853,2025-03-23,Supplier C
+PROD0913,Tire Basic,Automotive,667.56,301,637,2025-01-24,Supplier E
+PROD0914,Fiction Novel Deluxe,Books,705.8,190,717,2025-08-27,Supplier A
+PROD0915,Play-Doh Deluxe,Toys,761.32,476,899,2024-08-26,Supplier A
+PROD0916,Science Fiction Pro,Books,889.55,304,555,2024-08-31,Supplier D
+PROD0917,Keyboard Elite,Electronics,261.7,359,259,2025-06-24,Supplier D
+PROD0918,Dress Standard,Clothing,83.85,220,117,2024-11-18,Supplier E
+PROD0919,Face Mask Premium,Beauty,122.0,70,541,2025-03-07,Supplier A
+PROD0920,Dictionary Premium,Books,973.31,150,838,2024-06-13,Supplier D
+PROD0921,Wiper Blades Deluxe,Automotive,952.09,111,941,2025-05-24,Supplier B
+PROD0922,Keyboard Deluxe,Electronics,719.49,233,359,2023-12-03,Supplier A
+PROD0923,Air Filter Pro,Automotive,458.67,17,915,2024-04-16,Supplier B
+PROD0924,History Elite,Books,803.46,342,73,2025-05-08,Supplier C
+PROD0925,Jeans Premium,Clothing,854.12,325,731,2023-12-09,Supplier C
+PROD0926,Tennis Racket Deluxe,Sports,28.5,318,898,2024-03-22,Supplier D
+PROD0927,Charger Basic,Electronics,640.87,339,198,2025-01-24,Supplier B
+PROD0928,Building Blocks Deluxe,Toys,955.54,249,920,2024-11-14,Supplier E
+PROD0929,Perfume Basic,Beauty,474.35,72,912,2024-06-24,Supplier D
+PROD0930,Moisturizer Premium,Beauty,612.56,467,147,2024-10-11,Supplier B
+PROD0931,Perfume Basic,Beauty,858.41,163,798,2024-06-17,Supplier B
+PROD0932,Cup Elite,Home & Kitchen,211.67,380,364,2024-09-03,Supplier A
+PROD0933,Lipstick Premium,Beauty,177.94,17,134,2023-11-23,Supplier E
+PROD0934,Hat Deluxe,Clothing,139.22,0,292,2025-05-06,Supplier D
+PROD0935,Moisturizer Basic,Beauty,670.98,0,313,2024-07-18,Supplier B
+PROD0936,Coat Deluxe,Clothing,88.2,266,618,2025-09-22,Supplier A
+PROD0937,Toaster Pro,Home & Kitchen,331.33,178,536,2024-04-10,Supplier C
+PROD0938,Action Figure Standard,Toys,682.63,280,258,2024-12-04,Supplier B
+PROD0939,Water Bottle Basic,Sports,425.73,234,853,2024-07-29,Supplier A
+PROD0940,Doll Basic,Toys,259.12,74,33,2024-06-12,Supplier B
+PROD0941,Dictionary Basic,Books,409.07,7,299,2024-12-18,Supplier C
+PROD0942,Battery Pro,Automotive,926.07,131,623,2025-04-13,Supplier C
+PROD0943,Spark Plug Elite,Automotive,809.46,208,827,2025-03-03,Supplier A
+PROD0944,Plate Set Elite,Home & Kitchen,669.03,155,851,2023-12-11,Supplier E
+PROD0945,Cup Pro,Home & Kitchen,657.46,109,296,2024-11-28,Supplier D
+PROD0946,Cookbook Standard,Books,981.04,140,246,2024-03-30,Supplier E
+PROD0947,Battery Premium,Automotive,45.0,282,511,2025-02-28,Supplier A
+PROD0948,Dictionary Premium,Books,835.48,392,598,2024-08-10,Supplier C
+PROD0949,Remote Car Standard,Toys,801.99,190,513,2025-02-22,Supplier D
+PROD0950,Phone Mount Elite,Automotive,903.31,381,522,2025-09-14,Supplier E
+PROD0951,Pan Elite,Home & Kitchen,258.44,431,547,2025-02-06,Supplier A
+PROD0952,Camera Deluxe,Electronics,803.09,257,354,2024-04-29,Supplier E
+PROD0953,Play-Doh Pro,Toys,812.58,103,1,2023-11-14,Supplier B
+PROD0954,Lipstick Standard,Beauty,93.46,457,195,2025-04-20,Supplier A
+PROD0955,Dumbbell Premium,Sports,116.35,98,956,2024-11-30,Supplier A
+PROD0956,Spark Plug Basic,Automotive,207.07,306,207,2025-02-25,Supplier B
+PROD0957,Knife Set Pro,Home & Kitchen,624.99,409,915,2024-12-28,Supplier B
+PROD0958,Foundation Standard,Beauty,717.68,25,14,2025-01-24,Supplier E
+PROD0959,Smartphone Pro,Electronics,929.97,230,946,2024-01-14,Supplier C
+PROD0960,Remote Car Basic,Toys,38.53,92,346,2025-02-24,Supplier C
+PROD0961,Shorts Pro,Clothing,142.18,209,390,2023-11-10,Supplier C
+PROD0962,Car Cover Basic,Automotive,119.54,303,403,2025-02-06,Supplier D
+PROD0963,Play-Doh Elite,Toys,28.82,427,151,2025-10-16,Supplier A
+PROD0964,Plate Set Premium,Home & Kitchen,38.75,439,129,2025-07-27,Supplier C
+PROD0965,Microwave Pro,Home & Kitchen,870.75,164,454,2025-10-05,Supplier D
+PROD0966,Tennis Racket Deluxe,Sports,445.88,311,429,2025-04-28,Supplier A
+PROD0967,Play-Doh Elite,Toys,108.12,254,38,2023-11-09,Supplier E
+PROD0968,Shampoo Pro,Beauty,100.33,295,84,2023-11-16,Supplier E
+PROD0969,Spark Plug Standard,Automotive,889.74,312,642,2024-03-18,Supplier D
+PROD0970,Car Cover Standard,Automotive,30.99,274,860,2025-02-19,Supplier C
+PROD0971,Shampoo Basic,Beauty,242.35,464,45,2025-09-08,Supplier A
+PROD0972,Remote Car Pro,Toys,191.63,17,486,2024-11-16,Supplier A
+PROD0973,Wiper Blades Standard,Automotive,825.64,360,693,2025-08-31,Supplier A
+PROD0974,Bicycle Pro,Sports,53.17,385,683,2025-01-01,Supplier C
+PROD0975,Coat Basic,Clothing,602.43,21,754,2024-06-08,Supplier C
+PROD0976,Monitor Premium,Electronics,261.05,379,591,2024-06-21,Supplier A
+PROD0977,Laptop Pro,Electronics,110.81,422,612,2024-02-20,Supplier A
+PROD0978,Coffee Maker Deluxe,Home & Kitchen,239.57,122,977,2024-09-30,Supplier A
+PROD0979,Self-Help Pro,Books,367.63,57,435,2024-09-04,Supplier C
+PROD0980,Nail Polish Premium,Beauty,540.86,366,878,2023-12-25,Supplier C
+PROD0981,Stuffed Animal Standard,Toys,821.7,285,207,2024-05-01,Supplier C
+PROD0982,Basketball Pro,Sports,73.03,423,231,2025-05-03,Supplier E
+PROD0983,Coat Standard,Clothing,498.39,336,189,2025-03-25,Supplier C
+PROD0984,History Pro,Books,212.11,27,234,2025-10-16,Supplier A
+PROD0985,Smartphone Elite,Electronics,581.3,214,576,2025-01-03,Supplier B
+PROD0986,Phone Mount Premium,Automotive,803.35,238,610,2025-05-24,Supplier A
+PROD0987,Basketball Standard,Sports,104.14,359,622,2024-07-10,Supplier A
+PROD0988,Perfume Premium,Beauty,672.09,77,31,2025-02-25,Supplier A
+PROD0989,Speaker Basic,Electronics,137.41,129,735,2024-10-28,Supplier B
+PROD0990,Pan Basic,Home & Kitchen,283.02,250,970,2025-03-16,Supplier C
+PROD0991,Kite Premium,Toys,666.08,192,541,2025-03-20,Supplier E
+PROD0992,Atlas Pro,Books,321.1,100,966,2023-11-16,Supplier C
+PROD0993,Cookbook Deluxe,Books,130.64,474,690,2025-09-29,Supplier C
+PROD0994,Hat Standard,Clothing,423.52,106,330,2024-10-21,Supplier E
+PROD0995,Car Cover Elite,Automotive,508.35,442,190,2025-08-05,Supplier C
+PROD0996,Tennis Racket Elite,Sports,908.64,390,189,2024-04-30,Supplier D
+PROD0997,Water Bottle Deluxe,Sports,217.16,444,591,2025-06-30,Supplier C
+PROD0998,Plate Set Deluxe,Home & Kitchen,453.05,344,923,2025-06-04,Supplier C
+PROD0999,Shorts Elite,Clothing,568.83,294,534,2025-03-14,Supplier B
+PROD1000,Charger Deluxe,Electronics,881.13,122,674,2024-02-14,Supplier A

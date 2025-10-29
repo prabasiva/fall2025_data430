@@ -1,0 +1,198 @@
+---
+# Envoy Proxy Configuration for API Gateway
+# Routes traffic to REST, gRPC, and GraphQL backends
+
+admin:
+  access_log_path: /tmp/admin_access.log
+  address:
+    socket_address:
+      protocol: TCP
+      address: 0.0.0.0
+      port_value: 9901
+
+static_resources:
+  listeners:
+    # Main HTTP/HTTPS listener for REST and GraphQL
+    - name: http_listener
+      address:
+        socket_address:
+          protocol: TCP
+          address: 0.0.0.0
+          port_value: 10000
+      filter_chains:
+        - filters:
+            - name: envoy.filters.network.http_connection_manager
+              typed_config:
+                "@type": type.googleapis.com/envoy.extensions.filters.network.http_connection_manager.v3.HttpConnectionManager
+                stat_prefix: ingress_http
+                access_log:
+                  - name: envoy.access_loggers.stdout
+                    typed_config:
+                      "@type": type.googleapis.com/envoy.extensions.access_loggers.stream.v3.StdoutAccessLog
+                route_config:
+                  name: local_route
+                  virtual_hosts:
+                    - name: backend
+                      domains: ["*"]
+                      routes:
+                        # GraphQL endpoint
+                        - match:
+                            prefix: "/graphql"
+                          route:
+                            cluster: graphql_service
+                            timeout: 30s
+
+                        # REST API - Products endpoints
+                        - match:
+                            prefix: "/api/products"
+                          route:
+                            cluster: rest_service
+                            timeout: 15s
+                            prefix_rewrite: "/products"
+
+                        # REST API - Categories
+                        - match:
+                            prefix: "/api/categories"
+                          route:
+                            cluster: rest_service
+                            timeout: 15s
+                            prefix_rewrite: "/categories"
+
+                        # REST API - Health
+                        - match:
+                            prefix: "/api/health"
+                          route:
+                            cluster: rest_service
+                            timeout: 5s
+                            prefix_rewrite: "/health"
+
+                        # REST API root
+                        - match:
+                            prefix: "/api/"
+                          route:
+                            cluster: rest_service
+                            timeout: 15s
+                            regex_rewrite:
+                              pattern:
+                                google_re2: {}
+                                regex: "^/api/(.*)"
+                              substitution: "/\\1"
+
+                        # Default route
+                        - match:
+                            prefix: "/"
+                          direct_response:
+                            status: 200
+                            body:
+                              inline_string: |
+                                {
+                                  "service": "Envoy API Gateway",
+                                  "version": "1.0.0",
+                                  "status": "running",
+                                  "endpoints": {
+                                    "graphql": "POST /graphql",
+                                    "rest": "GET /api/*",
+                                    "admin": "http://localhost:9901"
+                                  }
+                                }
+
+                http_filters:
+                  - name: envoy.filters.http.router
+                    typed_config:
+                      "@type": type.googleapis.com/envoy.extensions.filters.http.router.v3.Router
+
+    # gRPC listener
+    - name: grpc_listener
+      address:
+        socket_address:
+          protocol: TCP
+          address: 0.0.0.0
+          port_value: 10001
+      filter_chains:
+        - filters:
+            - name: envoy.filters.network.http_connection_manager
+              typed_config:
+                "@type": type.googleapis.com/envoy.extensions.filters.network.http_connection_manager.v3.HttpConnectionManager
+                stat_prefix: ingress_grpc
+                codec_type: AUTO
+                access_log:
+                  - name: envoy.access_loggers.stdout
+                    typed_config:
+                      "@type": type.googleapis.com/envoy.extensions.access_loggers.stream.v3.StdoutAccessLog
+                route_config:
+                  name: grpc_route
+                  virtual_hosts:
+                    - name: grpc_backend
+                      domains: ["*"]
+                      routes:
+                        - match:
+                            prefix: "/"
+                            grpc: {}
+                          route:
+                            cluster: grpc_service
+                            timeout: 30s
+                http_filters:
+                  - name: envoy.filters.http.router
+                    typed_config:
+                      "@type": type.googleapis.com/envoy.extensions.filters.http.router.v3.Router
+
+  clusters:
+    # GraphQL Service Cluster
+    - name: graphql_service
+      connect_timeout: 5s
+      type: STRICT_DNS
+      lb_policy: ROUND_ROBIN
+      load_assignment:
+        cluster_name: graphql_service
+        endpoints:
+          - lb_endpoints:
+              - endpoint:
+                  address:
+                    socket_address:
+                      address: graphql-api
+                      port_value: 8000
+      health_checks:
+        - timeout: 5s
+          interval: 10s
+          unhealthy_threshold: 3
+          healthy_threshold: 2
+          http_health_check:
+            path: "/"
+
+    # REST Service Cluster
+    - name: rest_service
+      connect_timeout: 5s
+      type: STRICT_DNS
+      lb_policy: ROUND_ROBIN
+      load_assignment:
+        cluster_name: rest_service
+        endpoints:
+          - lb_endpoints:
+              - endpoint:
+                  address:
+                    socket_address:
+                      address: rest-api
+                      port_value: 8000
+      health_checks:
+        - timeout: 5s
+          interval: 10s
+          unhealthy_threshold: 3
+          healthy_threshold: 2
+          http_health_check:
+            path: "/"
+
+    # gRPC Service Cluster
+    - name: grpc_service
+      connect_timeout: 5s
+      type: STRICT_DNS
+      lb_policy: ROUND_ROBIN
+      http2_protocol_options: {}
+      load_assignment:
+        cluster_name: grpc_service
+        endpoints:
+          - lb_endpoints:
+              - endpoint:
+                  address:
+                    socket_address:
+                      address: grpc-api
+                      port_value: 50051

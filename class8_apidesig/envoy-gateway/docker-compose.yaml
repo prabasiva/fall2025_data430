@@ -1,0 +1,177 @@
+version: '3.8'
+
+services:
+  # Control Plane - Manages Envoy configuration
+  control-plane:
+    build:
+      context: .
+      dockerfile: Dockerfile.controlplane
+    container_name: envoy-control-plane
+    ports:
+      - "8080:8080"
+    networks:
+      - api-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/status"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  # REST API Service
+  rest-api:
+    build:
+      context: ..
+      dockerfile: envoy-gateway/Dockerfile.rest
+    container_name: rest-api-service
+    networks:
+      - api-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  # GraphQL API Service
+  graphql-api:
+    build:
+      context: ..
+      dockerfile: envoy-gateway/Dockerfile.graphql
+    container_name: graphql-api-service
+    networks:
+      - api-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  # gRPC API Service
+  grpc-api:
+    build:
+      context: ..
+      dockerfile: envoy-gateway/Dockerfile.grpc
+    container_name: grpc-api-service
+    networks:
+      - api-network
+    healthcheck:
+      test: ["CMD-SHELL", "exit 0"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  # Envoy Proxy Instance 1
+  envoy-proxy-1:
+    image: envoyproxy/envoy:v1.28-latest
+    container_name: envoy-proxy-1
+    volumes:
+      - ./config/envoy-proxy.yaml:/etc/envoy/envoy.yaml:ro
+    ports:
+      - "10000:10000"  # HTTP/GraphQL/REST
+      - "10001:10001"  # gRPC
+      - "9901:9901"    # Admin interface
+    networks:
+      - api-network
+    depends_on:
+      - rest-api
+      - graphql-api
+      - grpc-api
+      - control-plane
+    command: ["-c", "/etc/envoy/envoy.yaml", "--service-cluster", "api-gateway-cluster", "--service-node", "envoy-proxy-1"]
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:9901/ready"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  # Envoy Proxy Instance 2
+  envoy-proxy-2:
+    image: envoyproxy/envoy:v1.28-latest
+    container_name: envoy-proxy-2
+    volumes:
+      - ./config/envoy-proxy.yaml:/etc/envoy/envoy.yaml:ro
+    ports:
+      - "10002:10000"  # HTTP/GraphQL/REST
+      - "10003:10001"  # gRPC
+      - "9902:9901"    # Admin interface
+    networks:
+      - api-network
+    depends_on:
+      - rest-api
+      - graphql-api
+      - grpc-api
+      - control-plane
+    command: ["-c", "/etc/envoy/envoy.yaml", "--service-cluster", "api-gateway-cluster", "--service-node", "envoy-proxy-2"]
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:9901/ready"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  # Envoy Proxy Instance 3
+  envoy-proxy-3:
+    image: envoyproxy/envoy:v1.28-latest
+    container_name: envoy-proxy-3
+    volumes:
+      - ./config/envoy-proxy.yaml:/etc/envoy/envoy.yaml:ro
+    ports:
+      - "10004:10000"  # HTTP/GraphQL/REST
+      - "10005:10001"  # gRPC
+      - "9903:9901"    # Admin interface
+    networks:
+      - api-network
+    depends_on:
+      - rest-api
+      - graphql-api
+      - grpc-api
+      - control-plane
+    command: ["-c", "/etc/envoy/envoy.yaml", "--service-cluster", "api-gateway-cluster", "--service-node", "envoy-proxy-3"]
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:9901/ready"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+networks:
+  api-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.25.0.0/16
+
+volumes:
+  envoy-config:

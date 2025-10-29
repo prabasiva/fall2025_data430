@@ -1,0 +1,24 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Copy REST API files
+COPY ../rest-api/main.py /app/
+COPY ../rest-api/generate_products.py /app/
+COPY ../rest-api/products.csv /app/
+COPY ../rest-api/requirements.txt /app/
+
+# Install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Add health endpoint support
+RUN echo 'from fastapi import FastAPI\n\
+app = FastAPI()\n\
+\n\
+@app.get("/health")\n\
+def health():\n\
+    return {"status": "healthy", "service": "REST API"}\n' >> /app/health.py
+
+EXPOSE 8000
+
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]

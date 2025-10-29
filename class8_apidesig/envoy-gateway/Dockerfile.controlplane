@@ -1,0 +1,16 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Copy control plane files
+COPY control-plane/*.py /app/
+
+# Create requirements file
+RUN echo 'fastapi==0.115.5\nuvicorn[standard]==0.32.1\npydantic==2.10.3\nPyYAML==6.0.1' > /app/requirements.txt
+
+# Install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+EXPOSE 8080
+
+CMD ["python", "simple_control_plane.py"]
