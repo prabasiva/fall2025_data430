@@ -92,8 +92,8 @@ sequenceDiagram
     GE->>GE: Record latency
     GE->>C: 200 OK + JSON data
 
-    GE-.>>PROM: Push metrics
-    UE-.>>PROM: Push metrics
+    GE-->>PROM: Push metrics
+    UE-->>PROM: Push metrics
 ```
 
 ### Path-Based Routing Flow
